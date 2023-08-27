@@ -77,3 +77,47 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Consistent View Synthesis with Pose-Guided Diffusion Models](https://arxiv.org/abs/2303.17598), Tseng et al., CVPR 2023
 - [Long-Term Photometric Consistent Novel View Synthesis with Diffusion Models](https://arxiv.org/abs/2304.10700), Yu et al., Arxiv 2023 
 - [DiffDreamer: Towards Consistent Unsupervised Single-view Scene Extrapolation with Conditional Diffusion Models](https://arxiv.org/abs/2211.12131), Cai et al., Arxiv 2023
+
+## 3D-Space Generation
+### Explicit Representation
+
+- [Diffusion Probabilistic Models for 3D Point Cloud Generation](https://arxiv.org/pdf/2103.01458.pdf), Luo et al., CVPR 2021
+- [3d shape generation and completion through point-voxel diffusion](https://arxiv.org/pdf/2104.03670), Zhou et al., Arxiv 2021
+- [A Diffusion-ReFinement Model for Sketch-to-Point Modeling](https://link.springer.com/chapter/10.1007/978-3-031-26293-7_4), Kong et al., ACCV 2022
+- [Controllable Mesh Generation Through Sparse Latent Point Diffusion Models](http://arxiv.org/pdf/2303.07938v1), Lyu, CVPR 2023
+- [Point-E: A System for Generating 3D Point Clouds from Complex Prompts](https://arxiv.org/pdf/2212.08751), Alex Nichol Heewoo Jun et al., ICML 2023
+- [DiffFacto: Controllable Part-Based 3D Point Cloud Generation with Cross Diffusion](https://arxiv.org/pdf/2305.01921.pdf), Nakayama et al., Arxiv 2023
+- [Sketch and Text Guided Diffusion Model for Colored Point Cloud Generation](https://arxiv.org/pdf/2308.02874), Wu et al., ICCV 2023
+
+### Implicit Representation
+
+- [Learning A Diffusion Prior For Nerfs](https://arxiv.org/pdf/2304.14473.pdf), Yang et al., ICLRW 2023
+- [Tetrahedral Diffusion Models for 3D Shape Generation](https://arxiv.org/pdf/2211.13220.pdf), Nikolai and Torben et al., Arxiv 2022
+- [MeshDiffusion: Score-based Generative 3D Mesh Modeling](https://arxiv.org/pdf/2303.08133), Liu et al., ICLR 2023
+- [Neural Wavelet-domain Diffusion for 3D Shape Generation](https://arxiv.org/pdf/2209.08725), Hui et al., SIGGRAPH Asia 2022 
+- [Neural Wavelet-domain Diffusion for 3D Shape Generation, Inversion, and Manipulation](https://arxiv.org/pdf/2302.00190), Hu and Hui et al., Arxiv 2023
+- [DiffRF: Rendering-Guided 3D Radiance Field Diffusion](https://arxiv.org/pdf/2212.01206.pdf), Muller et al., CVPR 2023
+- [Locally Attentional SDF Diffusion for Controllable 3D Shape Generation](http://arxiv.org/pdf/2305.04461), Zheng et al., SIGGRAPH 2023
+- [HyperDiffusion: Generating Implicit Neural Fields with Weight-Space Diffusion](https://arxiv.org/pdf/2303.17015), Erkoç et al., ICCV 2023
+- [DiffComplete: Diffusion-based Generative 3D Shape Completion](https://arxiv.org/pdf/2306.16329), Chu et al., Arxiv 2023
+- [DiffRoom: Diffusion-based High-Quality 3D Room Reconstruction and Generation](https://arxiv.org/pdf/2306.00519), Ju et al., Arxiv 2023
+
+### Triplane
+
+- [3D Neural Field Generation using Triplane Diffusion](https://arxiv.org/pdf/2211.16677.pdf), Shue et al., Arxiv 2022
+- [DiffusionSDF: Conditional Generative Modeling of Signed Distance Functions](https://arxiv.org/pdf/2211.13757), Chou et al., Arxiv 2022
+- [Rodin: A Generative Model for Sculpting 3D Digital Avatars Using Diffusion](https://arxiv.org/pdf/2212.06135.pdf), Wang et al., CVPR 2023
+- [3DGen: Triplane Latent Diffusion for Textured Mesh Generation](https://arxiv.org/pdf/2303.05371), Gupta et al., Arxiv 2023
+- [Single-Stage Diffusion NeRF: A Unified Approach to 3D Generation and Reconstruction](https://arxiv.org/pdf/2304.06714.pdf), Chen et al., Arxiv 2023
+- [Learning Controllable 3D Diffusion Models from Single-view Images](https://arxiv.org/pdf/2304.06700), Gu et al., Arxiv 2023
+
+### Latent Representation
+
+- [GAUDI: A Neural Architect for Immersive 3D Scene Generation](https://arxiv.org/pdf/2207.13751.pdf), Bautista et al., NIPS 2022
+- [LION: Latent Point Diffusion Models for 3D Shape Generation](https://arxiv.org/pdf/2210.06978.pdf), Zeng et al., NIPS 2022
+- [Diffusion-SDF: Text-to-Shape via Voxelized Diffusion](https://arxiv.org/pdf/2212.03293), Li et al., CVPR 2023
+- [3D-LDM: Neural Implicit 3D Shape Generation with Latent Diffusion Models](https://arxiv.org/pdf/2212.00842), Nam et al., Arxiv 2022
+- [3DShape2VecSet: A 3D Shape Representation for Neural Fields and Generative Diffusion Models](http://arxiv.org/pdf/2301.11445), Zhang et al., SIGGRAPH 2023
+- [Shap-E: Generating Conditional 3D Implicit Functions](https://arxiv.org/pdf/2305.02463.pdf), Jun et al., Arxiv 2023
+- [StyleAvatar3D: Leveraging Image-Text Diffusion Models for High-Fidelity 3D Avatar Generation](https://arxiv.org/pdf/2305.19012), Zhang et al., Arxiv 2023
+- [AutoDecoding Latent 3D Diffusion Models](https://arxiv.org/pdf/2307.05445), Ntavelis et al., Arxiv 2023
