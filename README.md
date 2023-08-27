@@ -24,6 +24,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Compositional 3D Scene Generation using Locally Conditioned Diffusion](https://arxiv.org/abs/2303.12218), Po and Wetzstein, Arxiv 2023
 - [Set-the-Scene: Global-Local Training for Generating Controllable NeRF Scenes](https://arxiv.org/abs/2303.13450), Cohen-Bar et al., Arxiv 2023
 - [CompoNeRF: Text-guided Multi-object Compositional NeRF with Editable 3D Scene Layout](https://arxiv.org/abs/2303.13843), Lin et al., Arxiv 2023
+- [DreamTime: An Improved Optimization Strategy for Text-to-3D Content Creation](http://arxiv.org/abs/2306.12422), Huang et al., Arxiv 2023
 
 ### Image-to-3D
 - [NeuralLift-360: Lifting An In-the-wild 2D Photo to A 3D Object with $360^{\deg}$ Views](https://arxiv.org/abs/2211.16431), Xu et al., CVPR 2023
