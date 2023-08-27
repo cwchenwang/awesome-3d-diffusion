@@ -2,7 +2,7 @@
 This repo collects papers that use diffusion models for 3D generation.
 
 
-## 2D with Pretraining
+## 2D Diffusion with Pretraining
 ### Text-to-3D
 - [DreamFusion: Text-to-3D using 2D Diffusion](https://arxiv.org/abs/2209.14988), Poole et al., Arxiv 2022
 - [Magic3D: High-Resolution Text-to-3D Content Creation](https://arxiv.org/abs/2211.10440), Lin et al., Arxiv 2022
@@ -60,7 +60,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [RePaint-NeRF: NeRF Editting via Semantic Masks and Diffusion Models](https://arxiv.org/abs/2306.05668), Zhou et al., Arxiv 2023
 - [DreamEditor: Text-Driven 3D Scene Editing with Neural Fields](https://arxiv.org/abs/2306.13455), Zhuang et al., Arxiv 2023
 
-## 2D without Pretraining
+## 2D Diffusion without Pretraining
 ### 3D Objects
 - [Novel View Synthesis with Diffusion Models](https://arxiv.org/abs/2210.04628), Watson et al., ICLR 2023
 - [Generative Novel View Synthesis with 3D-Aware Diffusion Models](https://arxiv.org/abs/2304.02602), Chan et al., Arxiv 2023
@@ -78,7 +78,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Long-Term Photometric Consistent Novel View Synthesis with Diffusion Models](https://arxiv.org/abs/2304.10700), Yu et al., Arxiv 2023 
 - [DiffDreamer: Towards Consistent Unsupervised Single-view Scene Extrapolation with Conditional Diffusion Models](https://arxiv.org/abs/2211.12131), Cai et al., Arxiv 2023
 
-## 3D-Space Generation
+## Diffusion in 3D Space
 ### Explicit Representation
 
 - [Diffusion Probabilistic Models for 3D Point Cloud Generation](https://arxiv.org/pdf/2103.01458.pdf), Luo et al., CVPR 2021
