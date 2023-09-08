@@ -25,6 +25,11 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Set-the-Scene: Global-Local Training for Generating Controllable NeRF Scenes](https://arxiv.org/abs/2303.13450), Cohen-Bar et al., Arxiv 2023
 - [CompoNeRF: Text-guided Multi-object Compositional NeRF with Editable 3D Scene Layout](https://arxiv.org/abs/2303.13843), Lin et al., Arxiv 2023
 - [DreamTime: An Improved Optimization Strategy for Text-to-3D Content Creation](http://arxiv.org/abs/2306.12422), Huang et al., Arxiv 2023
+- [EfficientDreamer: High-Fidelity and Robust 3D Creation
+via Orthogonal-view Diffusion Prior](https://arxiv.org/abs/2308.13223), Zhao et al., Arxiv 2023
+- [MVDream: Multi-view Diffusion for 3D Generation](https://arxiv.org/abs/2308.16512), Shi et al., Arxiv 2023
+- [SyncDreamer:
+Generating Multiview-consistent Images from a Single-view Image](https://arxiv.org/abs/2309.03453), Liu et al., Arxiv 2023
 
 ### Image-to-3D
 - [NeuralLift-360: Lifting An In-the-wild 2D Photo to A 3D Object with $360^{\deg}$ Views](https://arxiv.org/abs/2211.16431), Xu et al., CVPR 2023
@@ -73,6 +78,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Diffusion with Forward Models: Solving Stochastic Inverse Problems Without Direct Supervision](https://arxiv.org/abs/2306.11719), Tewari et al., Arxiv 2023
 - [3D-aware Image Generation using 2D Diffusion Models](https://arxiv.org/abs/2303.17905), Xiang et al., Arxiv 2023
 - [Viewset Viewset Diffusion: (0-)Image-Conditioned 3D Generative Models from 2D Data](https://arxiv.org/abs/2306.07881), Szymanowicz et al., Arxiv 2023
+- [HOLOFUSION: Towards Photo-realistic 3D Generative Modeling](https://arxiv.org/pdf/2308.14244.pdf), Karnewar et al., Arxiv 2023
 
 ### 3D Scenes
 - [Consistent View Synthesis with Pose-Guided Diffusion Models](https://arxiv.org/abs/2303.17598), Tseng et al., CVPR 2023
