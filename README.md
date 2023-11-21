@@ -28,8 +28,14 @@ This repo collects papers that use diffusion models for 3D generation.
 - [EfficientDreamer: High-Fidelity and Robust 3D Creation
 via Orthogonal-view Diffusion Prior](https://arxiv.org/abs/2308.13223), Zhao et al., Arxiv 2023
 - [MVDream: Multi-view Diffusion for 3D Generation](https://arxiv.org/abs/2308.16512), Shi et al., Arxiv 2023
-- [SyncDreamer:
-Generating Multiview-consistent Images from a Single-view Image](https://arxiv.org/abs/2309.03453), Liu et al., Arxiv 2023
+- [SweetDreamer: Aligning Geometric Priors in 2D Diffusion for Consistent Text-to-3D](https://arxiv.org/abs/2309.03453), Li et al., Arxiv 2023
+- [Ctrl-Room: Controllable Text-to-3D Room Meshes Generation with Layout Constraints](https://arxiv.org/abs/2310.03602), Fang et al. Arxiv 2023
+- [DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior](http://arxiv.org/abs/2310.16818), Sun et al., Arxiv 2023
+- [Instant3D: Instant Text-to-3D Generation](http://arxiv.org/abs/2311.08403), Li et al., Arxiv 2023
+- [HyperFields: Towards Zero-Shot Generation of NeRFs from Text](http://arxiv.org/abs/2310.17075), Babu et al., Arxiv 2023
+- [DreamSpace: Dreaming Your Room Space with Text-Driven Panoramic Texture Propagation](http://arxiv.org/abs/2310.13119), Yang et al., Arxiv 2023
+- [Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping](http://arxiv.org/abs/2310.12474), Pan et al., Arxiv 2023
+- [GaussianDreamer: Fast Generation from Text to 3D Gaussian Splatting with Point Cloud Priors](http://arxiv.org/abs/2310.08529), Yi et al., Arxiv 2023
 
 ### Image-to-3D
 - [NeuralLift-360: Lifting An In-the-wild 2D Photo to A 3D Object with $360^{\deg}$ Views](https://arxiv.org/abs/2211.16431), Xu et al., CVPR 2023
@@ -42,6 +48,15 @@ Generating Multiview-consistent Images from a Single-view Image](https://arxiv.o
 - [DreamSparse: Escaping from Plato's Cave with 2D Frozen Diffusion Model Given Sparse Views](https://arxiv.org/abs/2306.03414), Yoo et al., Arxiv 2023
 - [One-2-3-45: Any Single Image to 3D Mesh in 45 Seconds without Per-Shape Optimization](https://arxiv.org/abs/2306.16928), Liu et al., Arxiv 2023
 - [Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors](https://arxiv.org/abs/2306.17843), Qian et al., Arxiv 2023
+- [360◦ Reconstruction From a Single Image Using Space Carved
+Outpainting](https://arxiv.org/abs/2309.10279), Ryu et al., SIGGRAPH ASIA 2023
+- [Viewpoint Textual Inversion: Unleashing Novel View Synthesis with Pretrained 2D Diffusion Models](http://arxiv.org/abs/2309.07986), Burgess et al., Arxiv 2023
+- [SyncDreamer:
+Generating Multiview-consistent Images from a Single-view Image](https://arxiv.org/abs/2309.03453), Liu et al., Arxiv 2023
+- [Wonder3D: Single Image to 3D using Cross-Domain Diffusion](https://arxiv.org/abs/2310.15008), Long et al., Arxiv 2023
+- [Consistent123: Improve Consistency for One Image to 3D Object Synthesis](http://arxiv.org/abs/2310.08092), Weng et al., Arxiv 2023
+- [Zero123++: a Single Image to Consistent Multi-view Diffusion Base Model](http://arxiv.org/abs/2310.15110), Shi et al., Arxiv 2023
+- [TOSS:High-quality Text-guided Novel View Synthesis from a Single Image](http://arxiv.org/abs/2310.10644), Shi et al., Arxiv 2023
 
 ### Human and Animal
 - [DreamFace: Progressive Generation of Animatable 3D Faces under Text Guidance](https://arxiv.org/abs/2304.03117), Zhang et al., Arxiv 2023
@@ -54,7 +69,8 @@ Generating Multiview-consistent Images from a Single-view Image](https://arxiv.o
 - [Anything 3D: Towards Single-view Anything Reconstruction in the Wild](https://arxiv.org/abs/2304.10261), Shen et al., Arxiv 2023
 - [ARTIC3D: Learning Robust Articulated 3D Shapes from Noisy Web Image Collections](https://arxiv.org/abs/2306.04619), Yao et al., Arxiv 2023
 - [TADA! Text to Animatable Digital Avatars](https://arxiv.org/abs/2308.10899), Liao et al., Arxiv 2023
-
+- [Diffusion-Guided Reconstruction of Everyday Hand-Object Interaction Clips](https://arxiv.org/abs/2309.05663), Ye et al., ICCV 2023
+- [Text-Guided Generation and Editing of Compositional 3D Avatars](http://arxiv.org/abs/2309.07125), Zhang et al., Arxiv 2023
 
 ### 3D Editing
 - [SKED: Sketch-guided Text-based 3D Editing](https://arxiv.org/abs/2303.10735), Mikaeili et al., Arxiv 2023
@@ -64,7 +80,11 @@ Generating Multiview-consistent Images from a Single-view Image](https://arxiv.o
 - [Edit-DiffNeRF: Editing 3D Neural Radiance Fields using 2D Diffusion Model](https://arxiv.org/abs/2306.09551), Yu et al., Arxiv 2023
 - [Control4D: Dynamic Portrait Editing by Learning 4D GAN from 2D Diffusion-based Editor](https://arxiv.org/abs/2305.20082), Shao et al., Arxiv 2023
 - [RePaint-NeRF: NeRF Editting via Semantic Masks and Diffusion Models](https://arxiv.org/abs/2306.05668), Zhou et al., Arxiv 2023
-- [DreamEditor: Text-Driven 3D Scene Editing with Neural Fields](https://arxiv.org/abs/2306.13455), Zhuang et al., Arxiv 2023
+- [DreamEditor: Text-Driven 3D Scene Editing with Neural Fields](https://arxiv.org/abs/2306.13455), Zhuang et al., SIGRRAPH ASIA 2023
+- [Language-driven Object Fusion into Neural Radiance Fields with Pose-Conditioned Dataset Updates](https://arxiv.org/abs/2309.11281), Shum et al., Arxiv 2023
+- [ED-NeRF: Efficient Text-Guided Editing of 3D Scene using Latent Space NeRF
+](https://arxiv.org/abs/2310.02712), Park et al., Arxiv 2023
+- [3D Paintbrush: Local Stylization of 3D Shapes with Cascaded Score Distillation](http://arxiv.org/abs/2311.09571), Decatur et al., Arxiv 2023
 
 ## 2D Diffusion without Pretraining
 ### 3D Objects
@@ -79,6 +99,10 @@ Generating Multiview-consistent Images from a Single-view Image](https://arxiv.o
 - [3D-aware Image Generation using 2D Diffusion Models](https://arxiv.org/abs/2303.17905), Xiang et al., Arxiv 2023
 - [Viewset Viewset Diffusion: (0-)Image-Conditioned 3D Generative Models from 2D Data](https://arxiv.org/abs/2306.07881), Szymanowicz et al., Arxiv 2023
 - [HOLOFUSION: Towards Photo-realistic 3D Generative Modeling](https://arxiv.org/pdf/2308.14244.pdf), Karnewar et al., Arxiv 2023
+- [ZeroNVS: Zero-Shot 360-Degree View Synthesis from a Single Real Image](http://arxiv.org/abs/2310.17994), Sargent et al., Arxiv 2023
+- [Instant3D: Fast Text-to-3D with Sparse-view Generation and Large Reconstruction Model](https://arxiv.org/abs/2311.06214), Li et al., Arxiv 2023
+- [DMV3D: Denoising Multi-View Diffusion using 3D Large Reconstruction Model](https://arxiv.org/abs/2311.09217), Xu et al., Arxiv 2023
+- [LRM: Large Reconstruction Model for Single Image to 3D](https://arxiv.org/abs/2311.04400), Hong et al., Arxiv 2023
 
 ### 3D Scenes
 - [Consistent View Synthesis with Pose-Guided Diffusion Models](https://arxiv.org/abs/2303.17598), Tseng et al., CVPR 2023
@@ -94,7 +118,8 @@ Generating Multiview-consistent Images from a Single-view Image](https://arxiv.o
 - [Controllable Mesh Generation Through Sparse Latent Point Diffusion Models](http://arxiv.org/pdf/2303.07938v1), Lyu, CVPR 2023
 - [Point-E: A System for Generating 3D Point Clouds from Complex Prompts](https://arxiv.org/pdf/2212.08751), Alex Nichol Heewoo Jun et al., ICML 2023
 - [DiffFacto: Controllable Part-Based 3D Point Cloud Generation with Cross Diffusion](https://arxiv.org/pdf/2305.01921.pdf), Nakayama et al., Arxiv 2023
-- [Sketch and Text Guided Diffusion Model for Colored Point Cloud Generation](https://arxiv.org/pdf/2308.02874), Wu et al., ICCV 2023
+- [Sketch and Text Guided Diffusion Model for Colored Point Cloud Generation](https://arxiv.org/abs/2308.02874), Wu et al., ICCV 2023
+- [DiT-3D: Exploring Plain Diffusion Transformers for 3D Shape Generation](https://arxiv.org/abs/2307.01831), Mo et al., Arxiv 2023
 
 ### Implicit Representation
 
