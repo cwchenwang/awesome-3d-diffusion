@@ -3,6 +3,8 @@ This repo collects papers that use diffusion models for 3D generation.
 
 **Note**: This list is far from complete, please feel free to add any paper you found relevant.
 
+**We are preparing a survey paper of diffusion models for 3D generation. Please stay tuned.**
+git 
 ## Table of Contents
 - [2D Diffusion with Pretraining](#2d-diffusion-with-pretraining)
   * [Text-to-3D](#text-to-3d)
