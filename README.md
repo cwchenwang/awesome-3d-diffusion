@@ -3,6 +3,22 @@ This repo collects papers that use diffusion models for 3D generation.
 
 **Note**: This list is far from complete, please feel free to add any paper you found relevant.
 
+## Table of Contents
+- [2D Diffusion with Pretraining](#2d-diffusion-with-pretraining)
+  * [Text-to-3D](#text-to-3d)
+  * [Image-to-3D](#image-to-3d)
+  * [Human and Animal](#human-and-animal)
+  * [3D Editing](#3d-editing)
+  * [Multi-view Diffusion](#multi-view-diffusion)
+- [2D Diffusion without Pretraining](#2d-diffusion-without-pretraining)
+  * [3D Objects](#3d-objects)
+  * [3D Scenes](#3d-scenes)
+- [Diffusion in 3D Space](#diffusion-in-3d-space)
+  * [Explicit Representation](#explicit-representation)
+  * [Implicit Representation](#implicit-representation)
+  * [Triplane](#triplane)
+  * [Latent Representation](#latent-representation)
+
 ## 2D Diffusion with Pretraining
 ### Text-to-3D
 - [DreamFusion: Text-to-3D using 2D Diffusion](https://arxiv.org/abs/2209.14988), Poole et al., Arxiv 2022
