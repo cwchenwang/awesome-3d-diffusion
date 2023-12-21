@@ -39,6 +39,7 @@ git
 - [SceneScape: Text-Driven Consistent Scene Generation](https://arxiv.org/abs/2302.01133), Fridman et al., Arxiv 2023
 - [Text2NeRF: Text-Driven 3D Scene Generation with Neural Radiance Fields](https://arxiv.org/abs/2305.11588), Zhang et al., Arxiv 2023
 - [PanoGen: Text-Conditioned Panoramic Environment Generation for Vision-and-Language Navigation](https://arxiv.org/abs/2305.19195), Li and Bansal, Arxiv 2023
+- [ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation](https://arxiv.org/abs/2305.16213), Wang et al., NeurIPS 2023.
 - [MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion](https://arxiv.org/abs/2307.01097), Tang et al., Arxiv 2023
 - [Compositional 3D Scene Generation using Locally Conditioned Diffusion](https://arxiv.org/abs/2303.12218), Po and Wetzstein, Arxiv 2023
 - [Set-the-Scene: Global-Local Training for Generating Controllable NeRF Scenes](https://arxiv.org/abs/2303.13450), Cohen-Bar et al., Arxiv 2023
@@ -112,6 +113,7 @@ Outpainting](https://arxiv.org/abs/2309.10279), Ryu et al., SIGGRAPH ASIA 2023
 - [GaussianEditor: Swift and Controllable 3D Editing with Gaussian Splatting](https://arxiv.org/abs/2311.14521), Chen et al., Arxiv 2023
 - [Inpaint3D: 3D Scene Content Generation using 2D Inpainting Diffusion](http://arxiv.org/abs/2312.03869), Prabhu et al., Arxiv 2023
 - [NeRFiller: Completing Scenes via Generative 3D Inpainting](http://arxiv.org/abs/2312.04560), Weber et al., Arxiv 2023
+- [LatentEditor: Text Driven Local Editing of 3D Scenes](https://arxiv.org/abs/2312.09313), Khalid et al., Arxiv 2023
 
 ### Multi-view Diffusion
 - [SyncDreamer: Generating Multiview-consistent Images from a Single-view Image](https://arxiv.org/abs/2309.03453), Liu et al., Arxiv 2023
