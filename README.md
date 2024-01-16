@@ -22,6 +22,10 @@ This repo collects papers that use diffusion models for 3D generation.
   * [Implicit Representation](#implicit-representation)
   * [Triplane](#triplane)
   * [Latent Representation](#latent-representation)
+- [Diffusion for Motion](#diffusion-for-motion)
+  * [Human Motion](#human-motion)
+
+
 
 ## 2D Diffusion with Pretraining
 ### Text-to-3D Object Generation
@@ -220,3 +224,13 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Shap-E: Generating Conditional 3D Implicit Functions](https://arxiv.org/pdf/2305.02463.pdf), Jun et al., Arxiv 2023
 - [StyleAvatar3D: Leveraging Image-Text Diffusion Models for High-Fidelity 3D Avatar Generation](https://arxiv.org/pdf/2305.19012), Zhang et al., Arxiv 2023
 - [AutoDecoding Latent 3D Diffusion Models](https://arxiv.org/pdf/2307.05445), Ntavelis et al., Arxiv 2023
+
+
+## Diffusion for Motion
+
+### Human Motion
+- [EMDM: Efficient Motion Diffusion Model for Fast, High-Quality Human Motion Generation](https://frank-zy-dou.github.io/projects/EMDM/index.html), Zhou et al., Arxiv 2023
+- [Executing your Commands via Motion Diffusion in Latent Space](https://arxiv.org/abs/2212.04048), Jiang et al., CVPR 2023
+- [Single Motion Diffusion](https://sinmdm.github.io/SinMDM-page/), Raab et al., Arxiv 2023
+- [MDM: Human Motion Diffusion Model](https://guytevet.github.io/mdm-page/), Tevet et al., ICLR 2023
+- [MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model](https://mingyuan-zhang.github.io/projects/MotionDiffuse.html), Zhang et al., Arxiv 2022
