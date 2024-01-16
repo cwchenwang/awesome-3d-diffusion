@@ -92,6 +92,8 @@ This repo collects papers that use diffusion models for 3D generation.
 - [360◦ Reconstruction From a Single Image Using Space Carved Outpainting](https://arxiv.org/abs/2309.10279), Ryu et al., SIGGRAPH ASIA 2023
 - [Viewpoint Textual Inversion: Unleashing Novel View Synthesis with Pretrained 2D Diffusion Models](http://arxiv.org/abs/2309.07986), Burgess et al., Arxiv 2023
 - [Customize-It-3D: High-Quality 3D Creation from A Single Image Using Subject-Specific Knowledge Prior](https://arxiv.org/abs/2312.11535), Huang et al., Arxiv 2023
+- [HarmonyView: Harmonizing Consistency and Diversity in One-Image-to-3D](http://arxiv.org/abs/2312.15980), Woo et al., Arxiv 2023
+- [AGG: Amortized Generative 3D Gaussians for Single Image to 3D](https://arxiv.org/abs/2401.04099), Xu et al., Arxiv 2024
 
 ### Human and Animal
 - [DreamFace: Progressive Generation of Animatable 3D Faces under Text Guidance](https://arxiv.org/abs/2304.03117), Zhang et al., Arxiv 2023
@@ -110,6 +112,9 @@ This repo collects papers that use diffusion models for 3D generation.
 - [AvatarStudio: High-fidelity and Animatable 3D Avatar Creation from Text](https://arxiv.org/abs/2311.17917), Zhang et al., Arxiv 2023
 - [Disentangled Clothed Avatar Generation from Text Descriptions](https://arxiv.org/abs/2312.05295), Wang et al., Arxiv 2023
 - [SEEAvatar: Photorealistic Text-to-3D Avatar Generation with Constrained Geometry and Appearance](https://arxiv.org/abs/2312.08889), Xu et al., Arxiv 2023
+- [GAvatar: Animatable 3D Gaussian Avatars with Implicit Mesh Learning](https://arxiv.org/abs/2312.11461), Yuan et al., Arxiv 2023
+- [Make-A-Character: High Quality Text-to-3D Character Generation within Minutes](http://arxiv.org/abs/2312.15430), Ren et al., Arxiv 2023
+- [Morphable Diffusion: 3D-Consistent Diffusion for Single-image Avatar Creation](https://arxiv.org/abs/2401.04728), Chen et al., Arxiv 2024
 
 ### 3D Editing
 - [SKED: Sketch-guided Text-based 3D Editing](https://arxiv.org/abs/2303.10735), Mikaeili et al., Arxiv 2023
@@ -130,6 +135,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [SHAP-EDITOR: Instruction-guided Latent 3D Editing in Seconds](https://arxiv.org/abs/2312.09246), Chen et al., Arxiv 2023
 - [LatentEditor: Text Driven Local Editing of 3D Scenes](https://arxiv.org/abs/2312.09313), Khalid et al., Arxiv 2023
 - [Free-Editor: Zero-shot Text-driven 3D Scene Editing](https://arxiv.org/abs/2312.13663), Karim et al., Arxiv 2023
+- [SIGNeRF: Scene Integrated Generation for Neural Radiance Fields](https://arxiv.org/abs/2401.01647), Dihlmann et al., Arxiv 2023
 
 ### Texturing
 - [Text2Tex: Text-driven Texture Synthesis via Diffusion Models](https://arxiv.org/abs/2303.11396), Chen et al., Arxiv 2023
@@ -186,6 +192,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model](http://arxiv.org/abs/2311.17618), Yin et al., Arxiv 2023
 - [VolumeDiffusion: Flexible Text-to-3D Generation with Efficient Volumetric Encoder](https://arxiv.org/abs/2312.11459), Tang et al., Arxiv 2023
 - [SPiC·E: Structural Priors in 3D Diffusion Models using Cross-Entity Attention](https://arxiv.org/abs/2311.17834), Sella et al., Arxiv 2023
+- [PolyDiff: Generating 3D Polygonal Meshes with Diffusion Models](https://arxiv.org/abs/2312.11417), Alliegro et al., Arxiv 2023
 
 ### Implicit Representation
 
