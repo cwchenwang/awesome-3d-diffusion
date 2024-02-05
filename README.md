@@ -236,7 +236,6 @@ This repo collects papers that use diffusion models for 3D generation.
 - [DNO: Optimizing Diffusion Noise Can Serve As Universal Motion Priors](https://korrawe.github.io/dno-project/), Karunratanakul et al., Arxiv 2023
 - [RoHM: Robust Human Motion Reconstruction via Diffusion](https://arxiv.org/pdf/2401.08570.pdf), Zhang et al., Arxiv 2023
 - [EMDM: Efficient Motion Diffusion Model for Fast, High-Quality Human Motion Generation](https://frank-zy-dou.github.io/projects/EMDM/index.html), Zhou et al., Arxiv 2023
-- [TLControl: Trajectory and Language Control for Human Motion Synthesis](https://tlcontrol.weilinwl.com/), Wan et al., Arxiv 2023
 - [DiffusionPhase: Motion Diffusion in Frequency Domain](https://arxiv.org/abs/2312.04036), Wan et al., Arxiv 2023
 - [InterControl: Generate Human Motion Interactions by Controlling Every Joint](https://arxiv.org/abs/2311.15864), Wang et al., Arxiv 2023
 - [AAMDM: Accelerated Auto-regressive Motion Diffusion Model](https://arxiv.org/abs/2401.06146), Li et al., Arxiv 2023
