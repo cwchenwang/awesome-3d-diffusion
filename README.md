@@ -237,8 +237,18 @@ This repo collects papers that use diffusion models for 3D generation.
 ## Diffusion for Motion
 
 ### Human Motion
+- [Single Motion Diffusion](https://sinmdm.github.io/SinMDM-page/), Raab et al., ICLR 2024.
+- [Human Motion Diffusion as a Generative Prior](https://priormdm.github.io/priorMDM-page/), Shafir et al., ICLR 2024.
+- [MotionMix: Weakly-Supervised Diffusion for Controllable Motion Generation], Hoang et al., AAAI 2024.
 - [EMDM: Efficient Motion Diffusion Model for Fast, High-Quality Human Motion Generation](https://frank-zy-dou.github.io/projects/EMDM/index.html), Zhou et al., Arxiv 2023
+- [MAS: Multi-view Ancestral Sampling for 3D motion generation using 2D diffusion](https://arxiv.org/abs/2310.14729), Kapon et al., Arxiv 2023.
+- [PhysDiff: Physics-Guided Human Motion Diffusion Model](https://openaccess.thecvf.com/content/ICCV2023/papers/Yuan_PhysDiff_Physics-Guided_Human_Motion_Diffusion_Model_ICCV_2023_paper.pdf), Yuan et al., ICCV 2023.
+- [Priority-Centric Human Motion Generation in Discrete Latent Space](https://openaccess.thecvf.com/content/ICCV2023/papers/Kong_Priority-Centric_Human_Motion_Generation_in_Discrete_Latent_Space_ICCV_2023_paper.pdf), Kong et al., ICCV 2023.
+- [ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_ReMoDiffuse_Retrieval-Augmented_Motion_Diffusion_Model_ICCV_2023_paper.pdf), Zhang et al., ICCV 2023.
+- [Object Motion Guided Human Motion Synthesis](https://arxiv.org/abs/2309.16237), Li et al., SIG ASIA 2023, TOG 2023.
+- [GestureDiffuCLIP: Gesture Diffusion Model with CLIP Latents](https://aubrey-ao.github.io/publication/gesturediffuclip/) Ao et al., SIG 2023, TOG 2023.
+- [Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Taming_Diffusion_Models_for_Audio-Driven_Co-Speech_Gesture_Generation_CVPR_2023_paper.pdf), Zhu et al., CVPR 2023.
+- [MoFusion: A Framework for Denoising-Diffusion-based Motion Synthesis](https://openaccess.thecvf.com/content/CVPR2023/papers/Dabral_Mofusion_A_Framework_for_Denoising-Diffusion-Based_Motion_Synthesis_CVPR_2023_paper.pdf), Dabral et al., CVPR 2023.
 - [Executing your Commands via Motion Diffusion in Latent Space](https://arxiv.org/abs/2212.04048), Jiang et al., CVPR 2023
-- [Single Motion Diffusion](https://sinmdm.github.io/SinMDM-page/), Raab et al., Arxiv 2023
 - [MDM: Human Motion Diffusion Model](https://guytevet.github.io/mdm-page/), Tevet et al., ICLR 2023
 - [MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model](https://mingyuan-zhang.github.io/projects/MotionDiffuse.html), Zhang et al., Arxiv 2022
