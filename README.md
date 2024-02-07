@@ -70,6 +70,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Stable Score Distillation for High-Quality 3D Generation](https://arxiv.org/abs/2312.09305), Tang et al., Arxiv 2023
 - [Text-Image Conditioned Diffusion for Consistent Text-to-3D Generation](https://arxiv.org/abs/2312.11774), He et al., Arxiv 2023
 - [Repaint123: Fast and High-quality One Image to 3D Generation with Progressive Controllable 2D Repainting](https://arxiv.org/abs/2312.13271), Zhang et al., Arxiv 2023
+- [Retrieval-Augmented Score Distillation for Text-to-3D Generation](https://arxiv.org/abs/2402.02972), Seo et al., Arxiv 2024
 
 ### Text-to-3D Scene Generation
 - [Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models](https://arxiv.org/abs/2303.11989), Höllein et al., Arxiv 2023
