@@ -70,6 +70,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Stable Score Distillation for High-Quality 3D Generation](https://arxiv.org/abs/2312.09305), Tang et al., Arxiv 2023
 - [Text-Image Conditioned Diffusion for Consistent Text-to-3D Generation](https://arxiv.org/abs/2312.11774), He et al., Arxiv 2023
 - [HexaGen3D: StableDiffusion is just one step away from Fast and Diverse Text-to-3D Generation](https://arxiv.org/abs/2401.07727), Mercier et al., Arxiv 2024
+- [Repaint123: Fast and High-quality One Image to 3D Generation with Progressive Controllable 2D Repainting](https://arxiv.org/abs/2312.13271), Zhang et al., Arxiv 2023
 - [Retrieval-Augmented Score Distillation for Text-to-3D Generation](https://arxiv.org/abs/2402.02972), Seo et al., Arxiv 2024
 
 ### Text-to-3D Scene Generation
@@ -80,7 +81,8 @@ This repo collects papers that use diffusion models for 3D generation.
 - [CompoNeRF: Text-guided Multi-object Compositional NeRF with Editable 3D Scene Layout](https://arxiv.org/abs/2303.13843), Lin et al., Arxiv 2023
 - [Text2NeRF: Text-Driven 3D Scene Generation with Neural Radiance Fields](https://arxiv.org/abs/2305.11588), Zhang et al., Arxiv 2023
 - [MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion](https://arxiv.org/abs/2307.01097), Tang et al., Arxiv 2023
-- [Ctrl-Room: Controllable Text-to-3D Room Meshes Generation with Layout Constraints](https://arxiv.org/abs/2310.03602), Fang et al. Arxiv 2023
+- [Ctrl-Room: Controllable Text-to-3D Room Meshes Generation with Layout Constraints](https://arxiv.org/abs/2310.03602), Fang et al., Arxiv 2023
+- [SceneWiz3D: Towards Text-guided 3D Scene Composition](https://arxiv.org/abs/2312.08885), Zhang et al., Arxiv 2023
 - [ShowRoom3D: Text to High-Quality 3D Room Generation Using 3D Priors](https://arxiv.org/abs/2312.13324), Mao et al., Arxiv 2023
 - [Text2Street: Controllable Text-to-image Generation for Street Views](https://arxiv.org/abs/2402.04504), Su et al., Arxiv 2024
 - [GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting](http://arxiv.org/abs/2402.07207), Zhou et al., Arxiv 2023
@@ -246,8 +248,35 @@ This repo collects papers that use diffusion models for 3D generation.
 ## Diffusion for Motion
 
 ### Human Motion
+- [Single Motion Diffusion](https://sinmdm.github.io/SinMDM-page/), Raab et al., ICLR 2024
+- [OmniControl: Control Any Joint at Any Time for Human Motion Generation](https://arxiv.org/abs/2310.08580), Xie et al., ICLR 2024
+- [Human Motion Diffusion as a Generative Prior](https://priormdm.github.io/priorMDM-page/), Shafir et al., ICLR 2024
+- [MotionMix: Weakly-Supervised Diffusion for Controllable Motion Generation](https://arxiv.org/abs/2401.11115), Hoang et al., AAAI 2024
+- [DNO: Optimizing Diffusion Noise Can Serve As Universal Motion Priors](https://korrawe.github.io/dno-project/), Karunratanakul et al., Arxiv 2023
+- [RoHM: Robust Human Motion Reconstruction via Diffusion](https://arxiv.org/pdf/2401.08570.pdf), Zhang et al., Arxiv 2023
 - [EMDM: Efficient Motion Diffusion Model for Fast, High-Quality Human Motion Generation](https://frank-zy-dou.github.io/projects/EMDM/index.html), Zhou et al., Arxiv 2023
+- [DiffusionPhase: Motion Diffusion in Frequency Domain](https://arxiv.org/abs/2312.04036), Wan et al., Arxiv 2023
+- [InterControl: Generate Human Motion Interactions by Controlling Every Joint](https://arxiv.org/abs/2311.15864), Wang et al., Arxiv 2023
+- [AAMDM: Accelerated Auto-regressive Motion Diffusion Model](https://arxiv.org/abs/2401.06146), Li et al., Arxiv 2023
+- [ReMoS: Reactive 3D Motion Synthesis for Two-Person Interactions](https://vcai.mpi-inf.mpg.de/projects/remos/), Ghosh et al., Arxiv 2023
+- [HOI-Diff: Text-Driven Synthesis of 3D Human-Object Interactions using Diffusion Models](https://arxiv.org/abs/2312.06553), Peng et al., Arxiv 2023
+- [Controllable Motion Diffusion Model](https://arxiv.org/abs/2306.00416), Shi et al., Arxiv 2023
+- [MAS: Multi-view Ancestral Sampling for 3D motion generation using 2D diffusion](https://arxiv.org/abs/2310.14729), Kapon et al., Arxiv 2023
+- [CG-HOI: Contact-Guided 3D Human-Object Interaction Generation](https://arxiv.org/pdf/2311.16097.pdf), Diller et al., Arxiv 2023
+- [A Unified Framework for Multimodal, Multi-Part Human Motion Synthesis](https://arxiv.org/pdf/2311.16471.pdf), Zhou et al., Arxiv 2023
+- [Controllable Motion Synthesis and Reconstruction with Autoregressive Diffusion Models](https://arxiv.org/abs/2304.04681), Yin et al., Arxiv 2023
+- [Guided Motion Diffusion for Controllable Human Motion Synthesis](https://openaccess.thecvf.com/content/ICCV2023/papers/Karunratanakul_Guided_Motion_Diffusion_for_Controllable_Human_Motion_Synthesis_ICCV_2023_paper.pdf), Karunratanakul et al., ICCV 2023
+- [Hierarchical Generation of Human-Object Interactions with Diffusion Probabilistic Models](https://openaccess.thecvf.com/content/ICCV2023/html/Pi_Hierarchical_Generation_of_Human-Object_Interactions_with_Diffusion_Probabilistic_Models_ICCV_2023_paper.html), Pi et al., ICCV 2023
+- [PhysDiff: Physics-Guided Human Motion Diffusion Model](https://openaccess.thecvf.com/content/ICCV2023/papers/Yuan_PhysDiff_Physics-Guided_Human_Motion_Diffusion_Model_ICCV_2023_paper.pdf), Yuan et al., ICCV 2023
+- [Priority-Centric Human Motion Generation in Discrete Latent Space](https://openaccess.thecvf.com/content/ICCV2023/papers/Kong_Priority-Centric_Human_Motion_Generation_in_Discrete_Latent_Space_ICCV_2023_paper.pdf), Kong et al., ICCV 2023
+- [ReMoDiffuse: Retrieval-Augmented Motion Diffusion Model](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_ReMoDiffuse_Retrieval-Augmented_Motion_Diffusion_Model_ICCV_2023_paper.pdf), Zhang et al., ICCV 2023
+- [Flame: Free-form language-based motion synthesis & editing](https://ojs.aaai.org/index.php/AAAI/article/view/25996), Kim et al., AAAI 2023
+- [Object Motion Guided Human Motion Synthesis](https://arxiv.org/abs/2309.16237), Li et al., SIG ASIA 2023, TOG 2023
+- [Controllable Group Choreography using Contrastive Diffusion](https://arxiv.org/abs/2310.18986), Le et al., TOG 2023
+- [Listen, denoise, action! Audio-driven motion synthesis with diffusion models](https://arxiv.org/abs/2211.09707), Alexanderson et al., SIG 2023, TOG 2023
+- [GestureDiffuCLIP: Gesture Diffusion Model with CLIP Latents](https://aubrey-ao.github.io/publication/gesturediffuclip/) Ao et al., SIG 2023, TOG 2023
+- [Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Taming_Diffusion_Models_for_Audio-Driven_Co-Speech_Gesture_Generation_CVPR_2023_paper.pdf), Zhu et al., CVPR 2023
+- [MoFusion: A Framework for Denoising-Diffusion-based Motion Synthesis](https://openaccess.thecvf.com/content/CVPR2023/papers/Dabral_Mofusion_A_Framework_for_Denoising-Diffusion-Based_Motion_Synthesis_CVPR_2023_paper.pdf), Dabral et al., CVPR 2023
 - [Executing your Commands via Motion Diffusion in Latent Space](https://arxiv.org/abs/2212.04048), Jiang et al., CVPR 2023
-- [Single Motion Diffusion](https://sinmdm.github.io/SinMDM-page/), Raab et al., Arxiv 2023
 - [MDM: Human Motion Diffusion Model](https://guytevet.github.io/mdm-page/), Tevet et al., ICLR 2023
 - [MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model](https://mingyuan-zhang.github.io/projects/MotionDiffuse.html), Zhang et al., Arxiv 2022
