@@ -69,7 +69,8 @@ This repo collects papers that use diffusion models for 3D generation.
 - [UniDream: Unifying Diffusion Priors for Relightable Text-to-3D Generation](https://arxiv.org/abs/2312.08754), Liu et al., Arxiv 2023
 - [Stable Score Distillation for High-Quality 3D Generation](https://arxiv.org/abs/2312.09305), Tang et al., Arxiv 2023
 - [Text-Image Conditioned Diffusion for Consistent Text-to-3D Generation](https://arxiv.org/abs/2312.11774), He et al., Arxiv 2023
-- [Repaint123: Fast and High-quality One Image to 3D Generation with Progressive Controllable 2D Repainting](https://arxiv.org/abs/2312.13271), Zhang et al., Arxiv 2023
+- [HexaGen3D: StableDiffusion is just one step away from Fast and Diverse Text-to-3D Generation](https://arxiv.org/abs/2401.07727), Mercier et al., Arxiv 2024
+- [Retrieval-Augmented Score Distillation for Text-to-3D Generation](https://arxiv.org/abs/2402.02972), Seo et al., Arxiv 2024
 
 ### Text-to-3D Scene Generation
 - [Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models](https://arxiv.org/abs/2303.11989), Höllein et al., Arxiv 2023
@@ -81,6 +82,8 @@ This repo collects papers that use diffusion models for 3D generation.
 - [MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion](https://arxiv.org/abs/2307.01097), Tang et al., Arxiv 2023
 - [Ctrl-Room: Controllable Text-to-3D Room Meshes Generation with Layout Constraints](https://arxiv.org/abs/2310.03602), Fang et al. Arxiv 2023
 - [ShowRoom3D: Text to High-Quality 3D Room Generation Using 3D Priors](https://arxiv.org/abs/2312.13324), Mao et al., Arxiv 2023
+- [Text2Street: Controllable Text-to-image Generation for Street Views](https://arxiv.org/abs/2402.04504), Su et al., Arxiv 2024
+- [GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting](http://arxiv.org/abs/2402.07207), Zhou et al., Arxiv 2023
 
 ### Image-to-3D
 - [NeuralLift-360: Lifting An In-the-wild 2D Photo to A 3D Object with $360^{\deg}$ Views](https://arxiv.org/abs/2211.16431), Xu et al., CVPR 2023
@@ -97,6 +100,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Viewpoint Textual Inversion: Unleashing Novel View Synthesis with Pretrained 2D Diffusion Models](http://arxiv.org/abs/2309.07986), Burgess et al., Arxiv 2023
 - [Customize-It-3D: High-Quality 3D Creation from A Single Image Using Subject-Specific Knowledge Prior](https://arxiv.org/abs/2312.11535), Huang et al., Arxiv 2023
 - [HarmonyView: Harmonizing Consistency and Diversity in One-Image-to-3D](http://arxiv.org/abs/2312.15980), Woo et al., Arxiv 2023
+- [Repaint123: Fast and High-quality One Image to 3D Generation with Progressive Controllable 2D Repainting](https://arxiv.org/abs/2312.13271), Zhang et al., Arxiv 2023
 - [AGG: Amortized Generative 3D Gaussians for Single Image to 3D](https://arxiv.org/abs/2401.04099), Xu et al., Arxiv 2024
 
 ### Human and Animal
@@ -140,11 +144,14 @@ This repo collects papers that use diffusion models for 3D generation.
 - [LatentEditor: Text Driven Local Editing of 3D Scenes](https://arxiv.org/abs/2312.09313), Khalid et al., Arxiv 2023
 - [Free-Editor: Zero-shot Text-driven 3D Scene Editing](https://arxiv.org/abs/2312.13663), Karim et al., Arxiv 2023
 - [SIGNeRF: Scene Integrated Generation for Neural Radiance Fields](https://arxiv.org/abs/2401.01647), Dihlmann et al., Arxiv 2023
+- [Efficient-NeRF2NeRF: Streamlining Text-Driven 3D Editing with Multiview Correspondence-Enhanced Diffusion Models](https://arxiv.org/abs/2312.08563), Song et al., Arxiv 2024
+- [ReplaceAnything3D: Text-Guided 3D Scene Editing with Compositional Neural Radiance Fields](https://arxiv.org/abs/2401.17895), Bartrum et al., Arxiv 2024
 
 ### Texturing
 - [Text2Tex: Text-driven Texture Synthesis via Diffusion Models](https://arxiv.org/abs/2303.11396), Chen et al., Arxiv 2023
 - [EucliDreamer: Fast and High-Quality Texturing for 3D Models with Stable Diffusion Depth](https://arxiv.org/abs/2311.15573), Le et al., Arxiv 2023
 - [Paint3D: Paint Anything 3D with Lighting-Less Texture Diffusion Models](http://arxiv.org/abs/2312.13913), Zeng et al., Arxiv 2023
+- [TextureDreamer: Image-guided Texture Synthesis through Geometry-aware Diffusion](https://arxiv.org/abs/2401.09416), Yeh et al., Arxiv 2024
 
 ### Multi-view Diffusion
 - [SyncDreamer: Generating Multiview-consistent Images from a Single-view Image](https://arxiv.org/abs/2309.03453), Liu et al., Arxiv 2023
@@ -155,7 +162,9 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Text-Guided Texturing by Synchronized Multi-View Diffusion](https://arxiv.org/abs/2311.12891), Liu et al., Arxiv 2023
 - [Direct2.5: Diverse Text-to-3D Generation via Multi-view 2.5D Diffusion](http://arxiv.org/abs/2311.15980), Lu et al., Arxiv 2023
 - [ViVid-1-to-3: Novel View Synthesis with Video Diffusion Models](http://arxiv.org/abs/2312.01305), Kwak et al., Arxiv 2023
-
+- [EscherNet: A Generative Model for Scalable View Synthesis](https://arxiv.org/abs/2402.03908), Kong et al., Arxiv 2024
+- [LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation](https://arxiv.org/abs/2402.05054), Tang et al., Arxiv 2024
+- [SPAD : Spatially Aware Multiview Diffusers](https://arxiv.org/abs/2402.05235), Kant et al., Arxiv 2024
 
 ## 2D Diffusion without Pretraining
 ### 3D Objects
@@ -175,6 +184,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [DMV3D: Denoising Multi-View Diffusion using 3D Large Reconstruction Model](https://arxiv.org/abs/2311.09217), Xu et al., Arxiv 2023
 - [LRM: Large Reconstruction Model for Single Image to 3D](https://arxiv.org/abs/2311.04400), Hong et al., Arxiv 2023
 - [WildFusion: Learning 3D-Aware Latent Diffusion Models in View Space](https://arxiv.org/abs/2311.13570), Schwarz et al., Arxiv 2023
+- [ViewFusion: Learning Composable Diffusion Models for Novel View Synthesis](https://arxiv.org/abs/2402.02906), Spiegl et al., Arxiv 2024
 
 ### 3D Scenes
 - [Consistent View Synthesis with Pose-Guided Diffusion Models](https://arxiv.org/abs/2303.17598), Tseng et al., CVPR 2023
