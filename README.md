@@ -80,12 +80,12 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Set-the-Scene: Global-Local Training for Generating Controllable NeRF Scenes](https://arxiv.org/abs/2303.13450), Cohen-Bar et al., Arxiv 2023
 - [CompoNeRF: Text-guided Multi-object Compositional NeRF with Editable 3D Scene Layout](https://arxiv.org/abs/2303.13843), Lin et al., Arxiv 2023
 - [Text2NeRF: Text-Driven 3D Scene Generation with Neural Radiance Fields](https://arxiv.org/abs/2305.11588), Zhang et al., Arxiv 2023
-- [MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion](https://arxiv.org/abs/2307.01097), Tang et al., Arxiv 2023
 - [Ctrl-Room: Controllable Text-to-3D Room Meshes Generation with Layout Constraints](https://arxiv.org/abs/2310.03602), Fang et al., Arxiv 2023
 - [SceneWiz3D: Towards Text-guided 3D Scene Composition](https://arxiv.org/abs/2312.08885), Zhang et al., Arxiv 2023
 - [ShowRoom3D: Text to High-Quality 3D Room Generation Using 3D Priors](https://arxiv.org/abs/2312.13324), Mao et al., Arxiv 2023
 - [Text2Street: Controllable Text-to-image Generation for Street Views](https://arxiv.org/abs/2402.04504), Su et al., Arxiv 2024
 - [GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting](http://arxiv.org/abs/2402.07207), Zhou et al., Arxiv 2023
+- [A Quantitative Evaluation of Score Distillation Sampling Based Text-to-3D](https://arxiv.org/abs/2402.18780), Fei et al., Arxiv 2024
 
 ### Image-to-3D
 - [NeuralLift-360: Lifting An In-the-wild 2D Photo to A 3D Object with $360^{\deg}$ Views](https://arxiv.org/abs/2211.16431), Xu et al., CVPR 2023
@@ -100,6 +100,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors](https://arxiv.org/abs/2306.17843), Qian et al., Arxiv 2023
 - [360◦ Reconstruction From a Single Image Using Space Carved Outpainting](https://arxiv.org/abs/2309.10279), Ryu et al., SIGGRAPH ASIA 2023
 - [Viewpoint Textual Inversion: Unleashing Novel View Synthesis with Pretrained 2D Diffusion Models](http://arxiv.org/abs/2309.07986), Burgess et al., Arxiv 2023
+- [IPDreamer: Appearance-Controllable 3D Object Generation with Image Prompts](https://arxiv.org/abs/2310.05375), Zeng et al.,
 - [Customize-It-3D: High-Quality 3D Creation from A Single Image Using Subject-Specific Knowledge Prior](https://arxiv.org/abs/2312.11535), Huang et al., Arxiv 2023
 - [HarmonyView: Harmonizing Consistency and Diversity in One-Image-to-3D](http://arxiv.org/abs/2312.15980), Woo et al., Arxiv 2023
 - [Repaint123: Fast and High-quality One Image to 3D Generation with Progressive Controllable 2D Repainting](https://arxiv.org/abs/2312.13271), Zhang et al., Arxiv 2023
@@ -156,6 +157,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [TextureDreamer: Image-guided Texture Synthesis through Geometry-aware Diffusion](https://arxiv.org/abs/2401.09416), Yeh et al., Arxiv 2024
 
 ### Multi-view Diffusion
+- [MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion](https://arxiv.org/abs/2307.01097), Tang et al., Arxiv 2023
 - [SyncDreamer: Generating Multiview-consistent Images from a Single-view Image](https://arxiv.org/abs/2309.03453), Liu et al., Arxiv 2023
 - [Consistent123: Improve Consistency for One Image to 3D Object Synthesis](http://arxiv.org/abs/2310.08092), Weng et al., Arxiv 2023
 - [Wonder3D: Single Image to 3D using Cross-Domain Diffusion](https://arxiv.org/abs/2310.15008), Long et al., Arxiv 2023
@@ -167,6 +169,8 @@ This repo collects papers that use diffusion models for 3D generation.
 - [EscherNet: A Generative Model for Scalable View Synthesis](https://arxiv.org/abs/2402.03908), Kong et al., Arxiv 2024
 - [LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation](https://arxiv.org/abs/2402.05054), Tang et al., Arxiv 2024
 - [SPAD : Spatially Aware Multiview Diffusers](https://arxiv.org/abs/2402.05235), Kant et al., Arxiv 2024
+- [MVDiffusion++: A Dense High-resolution Multi-view Diffusion Model for Single or Sparse-view 3D Object Reconstruction](https://arxiv.org/abs/2402.12712), Tang et al., Arxiv 2024
+- [CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model](http://arxiv.org/abs/2403.05034), Wang et al., Arxiv 2024
 
 ## 2D Diffusion without Pretraining
 ### 3D Objects
