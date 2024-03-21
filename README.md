@@ -3,8 +3,6 @@ This repo collects papers that use diffusion models for 3D generation.
 
 **Note**: This list is far from complete, please feel free to add any paper you found relevant.
 
-**We are preparing a survey paper of diffusion models for 3D generation. Please stay tuned.**
-
 ## Table of Contents
 - [2D Diffusion with Pretraining](#2d-diffusion-with-pretraining)
   * [Text-to-3D Object Generation](#text-to-3d-object-generation)
@@ -72,6 +70,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [HexaGen3D: StableDiffusion is just one step away from Fast and Diverse Text-to-3D Generation](https://arxiv.org/abs/2401.07727), Mercier et al., Arxiv 2024
 - [Repaint123: Fast and High-quality One Image to 3D Generation with Progressive Controllable 2D Repainting](https://arxiv.org/abs/2312.13271), Zhang et al., Arxiv 2023
 - [Retrieval-Augmented Score Distillation for Text-to-3D Generation](https://arxiv.org/abs/2402.02972), Seo et al., Arxiv 2024
+- [BrightDreamer: Generic 3D Gaussian Generative Framework for Fast Text-to-3D Synthesis](https://arxiv.org/abs/2403.11273), Jiang and Wang, Arxiv 2024
 
 ### Text-to-3D Scene Generation
 - [Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models](https://arxiv.org/abs/2303.11989), Höllein et al., Arxiv 2023
@@ -85,6 +84,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [ShowRoom3D: Text to High-Quality 3D Room Generation Using 3D Priors](https://arxiv.org/abs/2312.13324), Mao et al., Arxiv 2023
 - [Text2Street: Controllable Text-to-image Generation for Street Views](https://arxiv.org/abs/2402.04504), Su et al., Arxiv 2024
 - [GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting](http://arxiv.org/abs/2402.07207), Zhou et al., Arxiv 2023
+- [Sketch2NeRF: Multi-view Sketch-guided Text-to-3D Generation](https://arxiv.org/abs/2401.14257), Chen et al., Arxiv 2024
 - [A Quantitative Evaluation of Score Distillation Sampling Based Text-to-3D](https://arxiv.org/abs/2402.18780), Fei et al., Arxiv 2024
 
 ### Image-to-3D
@@ -129,7 +129,6 @@ This repo collects papers that use diffusion models for 3D generation.
 
 ### 3D Editing
 - [SKED: Sketch-guided Text-based 3D Editing](https://arxiv.org/abs/2303.10735), Mikaeili et al., Arxiv 2023
-- [TEXTure: Text-Guided Texturing of 3D Shapes](https://arxiv.org/abs/2302.01721), Richardson et al., Arxiv 2023
 - [Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions](https://arxiv.org/abs/2303.12789), Haque et al., ICCV 2023
 - [Instruct 3D-to-3D: Text Instruction Guided 3D-to-3D conversion](https://arxiv.org/abs/2303.15780), Kamata et al., Arxiv 2023
 - [Edit-DiffNeRF: Editing 3D Neural Radiance Fields using 2D Diffusion Model](https://arxiv.org/abs/2306.09551), Yu et al., Arxiv 2023
@@ -149,8 +148,11 @@ This repo collects papers that use diffusion models for 3D generation.
 - [SIGNeRF: Scene Integrated Generation for Neural Radiance Fields](https://arxiv.org/abs/2401.01647), Dihlmann et al., Arxiv 2023
 - [Efficient-NeRF2NeRF: Streamlining Text-Driven 3D Editing with Multiview Correspondence-Enhanced Diffusion Models](https://arxiv.org/abs/2312.08563), Song et al., Arxiv 2024
 - [ReplaceAnything3D: Text-Guided 3D Scene Editing with Compositional Neural Radiance Fields](https://arxiv.org/abs/2401.17895), Bartrum et al., Arxiv 2024
+- [GaussCtrl: Multi-View Consistent Text-Driven 3D Gaussian Splatting Editing](http://arxiv.org/abs/2403.08733), Wu et al., Arxiv 2024
+- [View-Consistent 3D Editing with Gaussian Splatting](https://arxiv.org/abs/2403.11868), Wang et al., Arxiv 2024
 
 ### Texturing
+- [TEXTure: Text-Guided Texturing of 3D Shapes](https://arxiv.org/abs/2302.01721), Richardson et al., Arxiv 2023
 - [Text2Tex: Text-driven Texture Synthesis via Diffusion Models](https://arxiv.org/abs/2303.11396), Chen et al., Arxiv 2023
 - [EucliDreamer: Fast and High-Quality Texturing for 3D Models with Stable Diffusion Depth](https://arxiv.org/abs/2311.15573), Le et al., Arxiv 2023
 - [Paint3D: Paint Anything 3D with Lighting-Less Texture Diffusion Models](http://arxiv.org/abs/2312.13913), Zeng et al., Arxiv 2023
@@ -171,6 +173,14 @@ This repo collects papers that use diffusion models for 3D generation.
 - [SPAD : Spatially Aware Multiview Diffusers](https://arxiv.org/abs/2402.05235), Kant et al., Arxiv 2024
 - [MVDiffusion++: A Dense High-resolution Multi-view Diffusion Model for Single or Sparse-view 3D Object Reconstruction](https://arxiv.org/abs/2402.12712), Tang et al., Arxiv 2024
 - [CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model](http://arxiv.org/abs/2403.05034), Wang et al., Arxiv 2024
+- [V3D: Video Diffusion Models are Effective 3D Generators](https://arxiv.org/abs/2403.06738), Chen et al., Arxiv 2024
+- [Make-Your-3D: Fast and Consistent Subject-Driven 3D Content Generation](http://arxiv.org/abs/2403.09625), Liu et al., Arxiv 2024
+- [Controllable Text-to-3D Generation via Surface-Aligned Gaussian Splatting](https://arxiv.org/abs/2403.09981), Li et al., Arxiv 2024
+- [FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model](https://arxiv.org/abs/2403.10242), Feng et al., Arxiv 2024
+- [Isotropic3D: Image-to-3D Generation Based on a Single CLIP Embedding](https://arxiv.org/abs/2403.10395), Liu et al., Arxiv 2024
+- [SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion](https://arxiv.org/abs/2403.12008), Vikram et al., Arxiv 2024
+- [Generic 3D Diffusion Adapter Using Controlled Multi-View Editing](https://arxiv.org/abs/2403.12032), Chen et al., Arxiv 2024
+- [VFusion3D: Learning Scalable 3D Generative Models from Video Diffusion Models](https://arxiv.org/abs/2403.12034), Han et al., Arxiv 2024
 
 ## 2D Diffusion without Pretraining
 ### 3D Objects
@@ -203,8 +213,8 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Diffusion Probabilistic Models for 3D Point Cloud Generation](https://arxiv.org/pdf/2103.01458.pdf), Luo et al., CVPR 2021
 - [3d shape generation and completion through point-voxel diffusion](https://arxiv.org/pdf/2104.03670), Zhou et al., Arxiv 2021
 - [A Diffusion-ReFinement Model for Sketch-to-Point Modeling](https://link.springer.com/chapter/10.1007/978-3-031-26293-7_4), Kong et al., ACCV 2022
-- [Controllable Mesh Generation Through Sparse Latent Point Diffusion Models](http://arxiv.org/pdf/2303.07938v1), Lyu, CVPR 2023
-- [Point-E: A System for Generating 3D Point Clouds from Complex Prompts](https://arxiv.org/pdf/2212.08751), Alex Nichol Heewoo Jun et al., ICML 2023
+- [Controllable Mesh Generation Through Sparse Latent Point Diffusion Models](http://arxiv.org/pdf/2303.07938), Lyu et al., CVPR 2023
+- [Point-E: A System for Generating 3D Point Clouds from Complex Prompts](https://arxiv.org/pdf/2212.08751), Nichol et al., ICML 2023
 - [DiffFacto: Controllable Part-Based 3D Point Cloud Generation with Cross Diffusion](https://arxiv.org/pdf/2305.01921.pdf), Nakayama et al., Arxiv 2023
 - [Sketch and Text Guided Diffusion Model for Colored Point Cloud Generation](https://arxiv.org/abs/2308.02874), Wu et al., ICCV 2023
 - [DiT-3D: Exploring Plain Diffusion Transformers for 3D Shape Generation](https://arxiv.org/abs/2307.01831), Mo et al., Arxiv 2023
@@ -213,6 +223,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [VolumeDiffusion: Flexible Text-to-3D Generation with Efficient Volumetric Encoder](https://arxiv.org/abs/2312.11459), Tang et al., Arxiv 2023
 - [SPiC·E: Structural Priors in 3D Diffusion Models using Cross-Entity Attention](https://arxiv.org/abs/2311.17834), Sella et al., Arxiv 2023
 - [PolyDiff: Generating 3D Polygonal Meshes with Diffusion Models](https://arxiv.org/abs/2312.11417), Alliegro et al., Arxiv 2023
+- [GVGEN: Text-to-3D Generation with Volumetric Representation](https://arxiv.org/abs/2403.12957), He et al., Arxiv 2024
 
 ### Implicit Representation
 
@@ -236,17 +247,19 @@ This repo collects papers that use diffusion models for 3D generation.
 - [3DGen: Triplane Latent Diffusion for Textured Mesh Generation](https://arxiv.org/pdf/2303.05371), Gupta et al., Arxiv 2023
 - [Single-Stage Diffusion NeRF: A Unified Approach to 3D Generation and Reconstruction](https://arxiv.org/pdf/2304.06714.pdf), Chen et al., Arxiv 2023
 - [Learning Controllable 3D Diffusion Models from Single-view Images](https://arxiv.org/pdf/2304.06700), Gu et al., Arxiv 2023
+- [Compress3D: a Compressed Latent Space for 3D Generation from a Single Image](https://arxiv.org/abs/2403.13524), Zhang et al., Arxiv 2024
 
 ### Latent Representation
 
-- [GAUDI: A Neural Architect for Immersive 3D Scene Generation](https://arxiv.org/pdf/2207.13751.pdf), Bautista et al., NIPS 2022
-- [LION: Latent Point Diffusion Models for 3D Shape Generation](https://arxiv.org/pdf/2210.06978.pdf), Zeng et al., NIPS 2022
+- [GAUDI: A Neural Architect for Immersive 3D Scene Generation](https://arxiv.org/pdf/2207.13751.pdf), Bautista et al., NeurIPS 2022
+- [LION: Latent Point Diffusion Models for 3D Shape Generation](https://arxiv.org/pdf/2210.06978.pdf), Zeng et al., NeurIPS 2022
 - [Diffusion-SDF: Text-to-Shape via Voxelized Diffusion](https://arxiv.org/pdf/2212.03293), Li et al., CVPR 2023
 - [3D-LDM: Neural Implicit 3D Shape Generation with Latent Diffusion Models](https://arxiv.org/pdf/2212.00842), Nam et al., Arxiv 2022
 - [3DShape2VecSet: A 3D Shape Representation for Neural Fields and Generative Diffusion Models](http://arxiv.org/pdf/2301.11445), Zhang et al., SIGGRAPH 2023
 - [Shap-E: Generating Conditional 3D Implicit Functions](https://arxiv.org/pdf/2305.02463.pdf), Jun et al., Arxiv 2023
 - [StyleAvatar3D: Leveraging Image-Text Diffusion Models for High-Fidelity 3D Avatar Generation](https://arxiv.org/pdf/2305.19012), Zhang et al., Arxiv 2023
 - [AutoDecoding Latent 3D Diffusion Models](https://arxiv.org/pdf/2307.05445), Ntavelis et al., Arxiv 2023
+- [LN3Diff: Scalable Latent Neural Fields Diffusion for Speedy 3D Generation](https://arxiv.org/abs/2403.12019), Lan et al., Arxiv 2024
 
 
 ## Diffusion for Motion
