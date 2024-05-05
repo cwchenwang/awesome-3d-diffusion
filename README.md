@@ -77,6 +77,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [DreamPolisher: Towards High-Quality Text-to-3D Generation via Geometric Diffusion](https://arxiv.org/abs/2403.17237), Lin et al., Arxiv 2024
 - [VP3D: Unleashing 2D Visual Prompt for Text-to-3D Generation](https://arxiv.org/abs/2403.17001), Chen et al., CVPR 2024
 - [Hash3D: Training-free Acceleration for 3D Generation](https://arxiv.org/abs/2404.06091), Yang and Wang, Arxiv 2024
+- [MicroDreamer: Zero-shot 3D Generation in ∼20 Seconds by Score-based Iterative Reconstruction](https://arxiv.org/abs/2404.19525), Chen et al., Arxiv 2024
 
 ### Scene Generation
 - [Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models](https://arxiv.org/abs/2303.11989), Höllein et al., Arxiv 2023
@@ -97,6 +98,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [RealmDreamer: Text-Driven 3D Scene Generation with Inpainting and Depth Diffusion](https://arxiv.org/abs/2404.07199), Shriram et al., Arxiv 2024
 - [Urban Architect: Steerable 3D Urban Scene Generation with Layout Prior](https://arxiv.org/abs/2404.06780), Lu et al., Arxiv 2024
 - [DreamScape: 3D Scene Creation via Gaussian Splatting joint Correlation Modeling](https://arxiv.org/abs/2404.09227), Yang et al., Arxiv 2024
+- [Invisible Stitch: Generating Smooth 3D Scenes with Depth Inpainting](https://arxiv.org/abs/2404.19758), Engstler et al., Arxiv 2024
 
 ### Image-to-3D
 - [NeuralLift-360: Lifting An In-the-wild 2D Photo to A 3D Object with $360^{\deg}$ Views](https://arxiv.org/abs/2211.16431), Xu et al., CVPR 2023
@@ -161,6 +163,8 @@ This repo collects papers that use diffusion models for 3D generation.
 - [ReplaceAnything3D: Text-Guided 3D Scene Editing with Compositional Neural Radiance Fields](https://arxiv.org/abs/2401.17895), Bartrum et al., Arxiv 2024
 - [GaussCtrl: Multi-View Consistent Text-Driven 3D Gaussian Splatting Editing](http://arxiv.org/abs/2403.08733), Wu et al., Arxiv 2024
 - [View-Consistent 3D Editing with Gaussian Splatting](https://arxiv.org/abs/2403.11868), Wang et al., Arxiv 2024
+- [Interactive3D: Create What You Want by Interactive 3D Generation](https://arxiv.org/abs/2404.16510), Dong et al., Arxiv 2024
+- [DGE: Direct Gaussian 3D Editing by Consistent Multi-view Editing](https://arxiv.org/abs/2404.18929), Chen et al., Arxiv 2024
 
 ### Texturing
 - [TEXTure: Text-Guided Texturing of 3D Shapes](https://arxiv.org/abs/2302.01721), Richardson et al., Arxiv 2023
@@ -168,6 +172,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [EucliDreamer: Fast and High-Quality Texturing for 3D Models with Stable Diffusion Depth](https://arxiv.org/abs/2311.15573), Le et al., Arxiv 2023
 - [Paint3D: Paint Anything 3D with Lighting-Less Texture Diffusion Models](http://arxiv.org/abs/2312.13913), Zeng et al., Arxiv 2023
 - [TextureDreamer: Image-guided Texture Synthesis through Geometry-aware Diffusion](https://arxiv.org/abs/2401.09416), Yeh et al., Arxiv 2024
+- [MaPa: Text-driven Photorealistic Material Painting for 3D Shapes](https://arxiv.org/abs/2404.17569), Zheng et al., Arxiv 2024
 
 ### Multi-view Diffusion
 - [MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion](https://arxiv.org/abs/2307.01097), Tang et al., Arxiv 2023
@@ -179,6 +184,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Text-Guided Texturing by Synchronized Multi-View Diffusion](https://arxiv.org/abs/2311.12891), Liu et al., Arxiv 2023
 - [Direct2.5: Diverse Text-to-3D Generation via Multi-view 2.5D Diffusion](http://arxiv.org/abs/2311.15980), Lu et al., Arxiv 2023
 - [ViVid-1-to-3: Novel View Synthesis with Video Diffusion Models](http://arxiv.org/abs/2312.01305), Kwak et al., Arxiv 2023
+- [EpiDiff: Enhancing Multi-View Synthesis via Localized Epipolar-Constrained Diffusion](https://arxiv.org/abs/2312.06725), Huang et al., CVPR 2024
 - [EscherNet: A Generative Model for Scalable View Synthesis](https://arxiv.org/abs/2402.03908), Kong et al., Arxiv 2024
 - [LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation](https://arxiv.org/abs/2402.05054), Tang et al., Arxiv 2024
 - [SPAD : Spatially Aware Multiview Diffusers](https://arxiv.org/abs/2402.05235), Kant et al., Arxiv 2024
@@ -197,6 +203,8 @@ This repo collects papers that use diffusion models for 3D generation.
 - [MVD-Fusion: Single-view 3D via Depth-consistent Multi-view Generation](https://arxiv.org/abs/2404.03656), Hu et al., CVPR 2024
 - [Magic-Boost: Boost 3D Generation with Mutli-View Conditioned Diffusion](https://arxiv.org/abs/2404.06429), Yang et al., Arxiv 2024
 - [InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models](http://arxiv.org/abs/2404.07191), Xu et al., Arxiv 2024
+- [Grounded Compositional and Diverse Text-to-3D with Pretrained Multi-View Diffusion Model](https://arxiv.org/pdf/2404.18065), Li et al., Arxiv 2024
+- [Multi-view Image Prompted Multi-view Diffusion for Improved 3D Generation](https://arxiv.org/abs/2404.17419), Kim et al., Arxiv 2024
 
 ## 2D Diffusion without Pretraining
 ### 3D Objects
