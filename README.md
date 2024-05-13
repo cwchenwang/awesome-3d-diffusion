@@ -1,9 +1,9 @@
 # Awesome 3D Diffusion
 This repo collects papers that use diffusion models for 3D generation.
 
-🔥🔥🔥 Check out our collection of papers on 4D generation: https://github.com/cwchenwang/awesome-4d-generation 🔥🔥🔥
+🔥🔥🔥 Check out our collection of papers on 4D generation: https://github.com/cwchenwang/awesome-4d-generation
 
-**Note**: This list is far from complete, please feel free to add any paper you found relevant.
+**Note**: This list is far from complete, please directly open a pull request if you want to add a paper or modify the information. You don't need to open an issue.
 
 ## Table of Contents
 - [2D Diffusion with Pretraining](#2d-diffusion-with-pretraining)
@@ -50,7 +50,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior](http://arxiv.org/abs/2310.16818), Sun et al., Arxiv 2023
 - [Text-to-3D with Classifier Score Distillation](http://arxiv.org/abs/2310.19415), Yu et al., Arxiv 2023
 - [Instant3D: Instant Text-to-3D Generation](http://arxiv.org/abs/2311.08403), Li et al., Arxiv 2023
-- [HyperFields: Towards Zero-Shot Generation of NeRFs from Text](http://arxiv.org/abs/2310.17075), Babu et al., Arxiv 2023
+- [HyperFields: Towards Zero-Shot Generation of NeRFs from Text](http://arxiv.org/abs/2310.17075), Babu et al., ICML 2024
 - [DreamSpace: Dreaming Your Room Space with Text-Driven Panoramic Texture Propagation](http://arxiv.org/abs/2310.13119), Yang et al., Arxiv 2023
 - [Enhancing High-Resolution 3D Generation through Pixel-wise Gradient Clipping](http://arxiv.org/abs/2310.12474), Pan et al., Arxiv 2023
 - [GaussianDreamer: Fast Generation from Text to 3D Gaussian Splatting with Point Cloud Priors](http://arxiv.org/abs/2310.08529), Yi et al., Arxiv 2023
@@ -80,6 +80,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [VP3D: Unleashing 2D Visual Prompt for Text-to-3D Generation](https://arxiv.org/abs/2403.17001), Chen et al., CVPR 2024
 - [Hash3D: Training-free Acceleration for 3D Generation](https://arxiv.org/abs/2404.06091), Yang and Wang, Arxiv 2024
 - [MicroDreamer: Zero-shot 3D Generation in ∼20 Seconds by Score-based Iterative Reconstruction](https://arxiv.org/abs/2404.19525), Chen et al., Arxiv 2024
+- [SketchDream: Sketch-based Text-to-3D Generation and Editing](https://arxiv.org/pdf/2405.06461), Liu et al., Arxiv 2024
 
 ### Scene Generation
 - [Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models](https://arxiv.org/abs/2303.11989), Höllein et al., Arxiv 2023
@@ -207,6 +208,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models](http://arxiv.org/abs/2404.07191), Xu et al., Arxiv 2024
 - [Grounded Compositional and Diverse Text-to-3D with Pretrained Multi-View Diffusion Model](https://arxiv.org/pdf/2404.18065), Li et al., Arxiv 2024
 - [Multi-view Image Prompted Multi-view Diffusion for Improved 3D Generation](https://arxiv.org/abs/2404.17419), Kim et al., Arxiv 2024
+- [MVDiff: Scalable and Flexible Multi-View Diffusion for 3D Object Reconstruction from Single-View](https://arxiv.org/pdf/2405.03894), Bourigault et al., Arxiv 2024
 
 ## 2D Diffusion without Pretraining
 ### 3D Objects
@@ -292,6 +294,8 @@ This repo collects papers that use diffusion models for 3D generation.
 - [XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies](https://arxiv.org/abs/2312.03806), Ren et al., CVPR 2024 
 - [LN3Diff: Scalable Latent Neural Fields Diffusion for Speedy 3D Generation](https://arxiv.org/abs/2403.12019), Lan et al., Arxiv 2024
 
+## Novel Representations
+- [X-Ray: A Sequential 3D Representation for Generation](https://arxiv.org/pdf/2404.14329), Hu et al., Arxiv 2024
 
 ## Diffusion for Motion
 
