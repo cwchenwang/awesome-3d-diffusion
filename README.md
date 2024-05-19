@@ -8,7 +8,7 @@ This repo collects papers that use diffusion models for 3D generation.
 ## Table of Contents
 - [2D Diffusion with Pretraining](#2d-diffusion-with-pretraining)
   * [Text-to-3D Object Generation](#text-to-3d-object-generation)
-  * [Text-to-3D Scene Generation](#text-to-3d-scene-generation)
+  * [Compositional or Scene Generation](#text-to-3d-scene-generation)
   * [Image-to-3D](#image-to-3d)
   * [Human and Animal](#human-and-animal)
   * [3D Editing](#3d-editing)
@@ -45,7 +45,6 @@ This repo collects papers that use diffusion models for 3D generation.
 - [ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation](https://arxiv.org/abs/2305.16213), Wang et al., NeurIPS 2023.
 - [DreamTime: An Improved Optimization Strategy for Text-to-3D Content Creation](http://arxiv.org/abs/2306.12422), Huang et al., Arxiv 2023
 - [EfficientDreamer: High-Fidelity and Robust 3D Creation via Orthogonal-view Diffusion Prior](https://arxiv.org/abs/2308.13223), Zhao et al., Arxiv 2023
-- [MVDream: Multi-view Diffusion for 3D Generation](https://arxiv.org/abs/2308.16512), Shi et al., Arxiv 2023
 - [SweetDreamer: Aligning Geometric Priors in 2D Diffusion for Consistent Text-to-3D](https://arxiv.org/abs/2309.03453), Li et al., Arxiv 2023
 - [DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior](http://arxiv.org/abs/2310.16818), Sun et al., Arxiv 2023
 - [Text-to-3D with Classifier Score Distillation](http://arxiv.org/abs/2310.19415), Yu et al., Arxiv 2023
@@ -82,7 +81,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [MicroDreamer: Zero-shot 3D Generation in ∼20 Seconds by Score-based Iterative Reconstruction](https://arxiv.org/abs/2404.19525), Chen et al., Arxiv 2024
 - [SketchDream: Sketch-based Text-to-3D Generation and Editing](https://arxiv.org/pdf/2405.06461), Liu et al., Arxiv 2024
 
-### Scene Generation
+### Compositional or Scene Generation
 - [Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models](https://arxiv.org/abs/2303.11989), Höllein et al., Arxiv 2023
 - [SceneScape: Text-Driven Consistent Scene Generation](https://arxiv.org/abs/2302.01133), Fridman et al., Arxiv 2023
 - [Compositional 3D Scene Generation using Locally Conditioned Diffusion](https://arxiv.org/abs/2303.12218), Po and Wetzstein, Arxiv 2023
@@ -179,6 +178,7 @@ This repo collects papers that use diffusion models for 3D generation.
 
 ### Multi-view Diffusion
 - [MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion](https://arxiv.org/abs/2307.01097), Tang et al., Arxiv 2023
+- [MVDream: Multi-view Diffusion for 3D Generation](https://arxiv.org/abs/2308.16512), Shi et al., Arxiv 2023
 - [SyncDreamer: Generating Multiview-consistent Images from a Single-view Image](https://arxiv.org/abs/2309.03453), Liu et al., Arxiv 2023
 - [Consistent123: Improve Consistency for One Image to 3D Object Synthesis](http://arxiv.org/abs/2310.08092), Weng et al., Arxiv 2023
 - [Wonder3D: Single Image to 3D using Cross-Domain Diffusion](https://arxiv.org/abs/2310.15008), Long et al., Arxiv 2023
@@ -206,6 +206,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [MVD-Fusion: Single-view 3D via Depth-consistent Multi-view Generation](https://arxiv.org/abs/2404.03656), Hu et al., CVPR 2024
 - [Magic-Boost: Boost 3D Generation with Mutli-View Conditioned Diffusion](https://arxiv.org/abs/2404.06429), Yang et al., Arxiv 2024
 - [InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models](http://arxiv.org/abs/2404.07191), Xu et al., Arxiv 2024
+- [Magic-Boost: Boost 3D Generation with Mutli-View Conditioned Diffusion](https://arxiv.org/abs/2404.06429), Yang et al., Arxiv 2024
 - [Grounded Compositional and Diverse Text-to-3D with Pretrained Multi-View Diffusion Model](https://arxiv.org/pdf/2404.18065), Li et al., Arxiv 2024
 - [Multi-view Image Prompted Multi-view Diffusion for Improved 3D Generation](https://arxiv.org/abs/2404.17419), Kim et al., Arxiv 2024
 - [MVDiff: Scalable and Flexible Multi-View Diffusion for 3D Object Reconstruction from Single-View](https://arxiv.org/pdf/2405.03894), Bourigault et al., Arxiv 2024
@@ -280,6 +281,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Single-Stage Diffusion NeRF: A Unified Approach to 3D Generation and Reconstruction](https://arxiv.org/pdf/2304.06714.pdf), Chen et al., Arxiv 2023
 - [Learning Controllable 3D Diffusion Models from Single-view Images](https://arxiv.org/pdf/2304.06700), Gu et al., Arxiv 2023
 - [Compress3D: a Compressed Latent Space for 3D Generation from a Single Image](https://arxiv.org/abs/2403.13524), Zhang et al., Arxiv 2024
+- [Dual3D: Efficient and Consistent Text-to-3D Generation with Dual-mode Multi-view Latent Diffusion](https://arxiv.org/pdf/2405.09874), Li et al., Arxiv 2024
 
 ### Latent Representation
 
