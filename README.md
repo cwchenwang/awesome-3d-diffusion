@@ -270,7 +270,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [DiffFacto: Controllable Part-Based 3D Point Cloud Generation with Cross Diffusion](https://arxiv.org/pdf/2305.01921.pdf), Nakayama et al., Arxiv 2023
 - [Sketch and Text Guided Diffusion Model for Colored Point Cloud Generation](https://arxiv.org/abs/2308.02874), Wu et al., ICCV 2023
 - [DiT-3D: Exploring Plain Diffusion Transformers for 3D Shape Generation](https://arxiv.org/abs/2307.01831), Mo et al., Arxiv 2023
-- [MeshGPT: Generating Triangle Meshes with Decoder-Only Transformers](https://arxiv.org/abs/2311.15475), Siddiqui et al., Arxiv 2023
+- [MeshGPT: Generating Triangle Meshes with Decoder-Only Transformers](https://arxiv.org/abs/2311.15475), Siddiqui et al., CVPR 2024
 - [ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model](http://arxiv.org/abs/2311.17618), Yin et al., Arxiv 2023
 - [VolumeDiffusion: Flexible Text-to-3D Generation with Efficient Volumetric Encoder](https://arxiv.org/abs/2312.11459), Tang et al., Arxiv 2023
 - [SPiC·E: Structural Priors in 3D Diffusion Models using Cross-Entity Attention](https://arxiv.org/abs/2311.17834), Sella et al., Arxiv 2023
