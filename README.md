@@ -133,6 +133,8 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Unique3D: High-Quality and Efficient 3D Mesh Generation from a Single Image](https://arxiv.org/pdf/2405.20343), Wu et al., Arxiv 2024
 
 ### Human and Animal
+- [ScoreHMR: Score-Guided Diffusion for 3D Human Recovery](https://github.com/statho/ScoreHMR), Stathopoulos et al., CVPR 2024
+- [Generative Proxemics: A Prior for 3D Social Interaction from Images](https://muelea.github.io/buddi/), Müller at al, CVPR 2024 
 - [DreamFace: Progressive Generation of Animatable 3D Faces under Text Guidance](https://arxiv.org/abs/2304.03117), Zhang et al., Arxiv 2023
 - [AvatarCraft: Transforming Text into Neural Human Avatars with Parameterized Shape and Pose Control](https://arxiv.org/abs/2303.17606), Jiang et al., ICCV 2023
 - [DreamAvatar: Text-and-Shape Guided 3D Human Avatar Generation via Diffusion Models](https://arxiv.org/abs/2304.00916), Cao et al., Arxiv 2023
@@ -251,6 +253,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Consistent View Synthesis with Pose-Guided Diffusion Models](https://arxiv.org/abs/2303.17598), Tseng et al., CVPR 2023
 - [Long-Term Photometric Consistent Novel View Synthesis with Diffusion Models](https://arxiv.org/abs/2304.10700), Yu et al., Arxiv 2023 
 - [DiffDreamer: Towards Consistent Unsupervised Single-view Scene Extrapolation with Conditional Diffusion Models](https://arxiv.org/abs/2211.12131), Cai et al., Arxiv 2023
+- [SemCity: Semantic Scene Generation with Triplane Diffusion](https://sglab.kaist.ac.kr/SemCity/), Lee et al., CVPR 2024
 
 ## Diffusion in 3D Space
 ### 3D Gaussians
@@ -267,7 +270,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [DiffFacto: Controllable Part-Based 3D Point Cloud Generation with Cross Diffusion](https://arxiv.org/pdf/2305.01921.pdf), Nakayama et al., Arxiv 2023
 - [Sketch and Text Guided Diffusion Model for Colored Point Cloud Generation](https://arxiv.org/abs/2308.02874), Wu et al., ICCV 2023
 - [DiT-3D: Exploring Plain Diffusion Transformers for 3D Shape Generation](https://arxiv.org/abs/2307.01831), Mo et al., Arxiv 2023
-- [MeshGPT: Generating Triangle Meshes with Decoder-Only Transformers](https://arxiv.org/abs/2311.15475), Siqqiqui et al., Arxiv 2023
+- [MeshGPT: Generating Triangle Meshes with Decoder-Only Transformers](https://arxiv.org/abs/2311.15475), Siddiqui et al., CVPR 2024
 - [ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model](http://arxiv.org/abs/2311.17618), Yin et al., Arxiv 2023
 - [VolumeDiffusion: Flexible Text-to-3D Generation with Efficient Volumetric Encoder](https://arxiv.org/abs/2312.11459), Tang et al., Arxiv 2023
 - [SPiC·E: Structural Priors in 3D Diffusion Models using Cross-Entity Attention](https://arxiv.org/abs/2311.17834), Sella et al., Arxiv 2023
