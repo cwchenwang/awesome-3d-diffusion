@@ -85,6 +85,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Atlas3D: Physically Constrained Self-Supporting Text-to-3D for Simulation and Fabrication](https://arxiv.org/abs/2405.18515), Chen et al., Arxiv 2024
 - [DIRECT-3D: Learning Direct Text-to-3D Generation on Massive Noisy 3D Data](https://arxiv.org/pdf/2406.04322), Liu et al., Arxiv 2024
 - [Text-guided Controllable Mesh Refinement for Interactive 3D Modeling](https://arxiv.org/pdf/2406.01592), Chen et al., Arxiv 2024
+- [ScaleDreamer: Scalable Text-to-3D Synthesis with Asynchronous Score Distillation](https://arxiv.org/pdf/2407.02040), Ma et al., ECCV 2024
 
 ### Compositional or Scene Generation
 - [Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models](https://arxiv.org/abs/2303.11989), Höllein et al., Arxiv 2023
