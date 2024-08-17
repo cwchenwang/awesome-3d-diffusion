@@ -85,6 +85,11 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Atlas3D: Physically Constrained Self-Supporting Text-to-3D for Simulation and Fabrication](https://arxiv.org/abs/2405.18515), Chen et al., Arxiv 2024
 - [DIRECT-3D: Learning Direct Text-to-3D Generation on Massive Noisy 3D Data](https://arxiv.org/pdf/2406.04322), Liu et al., Arxiv 2024
 - [Text-guided Controllable Mesh Refinement for Interactive 3D Modeling](https://arxiv.org/pdf/2406.01592), Chen et al., Arxiv 2024
+- [PlacidDreamer: Advancing Harmony in Text-to-3D Generation](https://arxiv.org/pdf/2407.13976), Huang et al., ACM MM 2024
+- [JointDreamer: Ensuring Geometry Consistency and Text Congruence in Text-to-3D Generation via Joint Score Distillation](https://arxiv.org/pdf/2407.12291), Jiang et al., ECCV 2024
+- [DreamDissector: Learning Disentangled Text-to-3D Generation from 2D Diffusion Priors](https://arxiv.org/pdf/2407.16260), Yan et al., ECCV 2024
+- [Connecting Consistency Distillation to Score Distillation for Text-to-3D Generation](https://arxiv.org/pdf/2407.13584), Li et al., ECCV 2024
+- [DreamCouple: Exploring High Quality Text-to-3D Generation Via Rectified Flow](https://arxiv.org/abs/2408.05008), Li et al., Arxiv 2024
 
 ### Compositional or Scene Generation
 - [Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models](https://arxiv.org/abs/2303.11989), Höllein et al., Arxiv 2023
@@ -108,6 +113,9 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Invisible Stitch: Generating Smooth 3D Scenes with Depth Inpainting](https://arxiv.org/abs/2404.19758), Engstler et al., Arxiv 2024
 - [REPARO: Compositional 3D Assets Generation with Differentiable 3D Layout Alignment](https://arxiv.org/pdf/2405.18525), Han et al., Arxiv 2024
 - [VividDream: Generating 3D Scene with Ambient Dynamics](https://arxiv.org/pdf/2405.20334), Lee et al., Arxiv 2024
+- [Director3D: Real-world Camera Trajectory and 3D Scene Generation from Text](https://arxiv.org/pdf/2406.17601), Li et al., Arxiv 2024
+- [Sketch2Scene: Automatic Generation of Interactive 3D Game Scenes from User's Casual Sketches](https://arxiv.org/abs/2408.04567), Xu et al., Arxiv 2024
+- [Scene123: One Prompt to 3D Scene Generation via Video-Assisted and Consistency-Enhanced MAE](https://arxiv.org/pdf/2408.05477), Yang et al., Arxiv 2024
 
 ### Image-to-3D
 - [NeuralLift-360: Lifting An In-the-wild 2D Photo to A 3D Object with $360^{\deg}$ Views](https://arxiv.org/abs/2211.16431), Xu et al., CVPR 2023
@@ -187,6 +195,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [TextureDreamer: Image-guided Texture Synthesis through Geometry-aware Diffusion](https://arxiv.org/abs/2401.09416), Yeh et al., Arxiv 2024
 - [MaPa: Text-driven Photorealistic Material Painting for 3D Shapes](https://arxiv.org/abs/2404.17569), Zheng et al., Arxiv 2024
 - [DreamMat: High-quality PBR Material Generation with Geometry- and Light-aware Diffusion Models](https://arxiv.org/abs/2405.17176), Zhang et al., Arxiv 2024
+- [TexGen: Text-Guided 3D Texture Generation with Multi-view Sampling and Resampling](https://arxiv.org/abs/2408.01291), Huo et al., Arxiv 2024
 
 ### Multi-view Diffusion
 - [MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion](https://arxiv.org/abs/2307.01097), Tang et al., Arxiv 2023
@@ -203,6 +212,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [EscherNet: A Generative Model for Scalable View Synthesis](https://arxiv.org/abs/2402.03908), Kong et al., Arxiv 2024
 - [LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation](https://arxiv.org/abs/2402.05054), Tang et al., Arxiv 2024
 - [SPAD : Spatially Aware Multiview Diffusers](https://arxiv.org/abs/2402.05235), Kant et al., Arxiv 2024
+- [IM-3D: Iterative Multiview Diffusion and Reconstruction for High-Quality 3D Generation](https://arxiv.org/pdf/2402.08682), Melas-Kyriazi et al., Arxiv 2024
 - [MVDiffusion++: A Dense High-resolution Multi-view Diffusion Model for Single or Sparse-view 3D Object Reconstruction](https://arxiv.org/abs/2402.12712), Tang et al., Arxiv 2024
 - [CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model](http://arxiv.org/abs/2403.05034), Wang et al., Arxiv 2024
 - [V3D: Video Diffusion Models are Effective 3D Generators](https://arxiv.org/abs/2403.06738), Chen et al., Arxiv 2024
@@ -225,6 +235,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [CAT3D: Create Anything in 3D with Multi-View Diffusion Models](http://arxiv.org/abs/2405.10314), Gao et al., Arxiv 2024
 - [CraftsMan: High-fidelity Mesh Generation with 3D Native Generation and Interactive Geometry Refiner](https://arxiv.org/abs/2405.14979), Li et al., Arxiv 2024
 - [Ouroboros3D: Image-to-3D Generation via 3D-aware Recursive Diffusion](https://arxiv.org/pdf/2406.03184), Wen et al., Arxiv 2024
+- [Cycle3D: High-quality and Consistent Image-to-3D Generation via Generation-Reconstruction Cycle](https://arxiv.org/abs/2407.19548), Tang et al., Arxiv 2024
 
 ## 2D Diffusion without Pretraining
 ### 3D Objects
