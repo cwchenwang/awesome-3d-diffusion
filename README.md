@@ -90,6 +90,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [DreamDissector: Learning Disentangled Text-to-3D Generation from 2D Diffusion Priors](https://arxiv.org/pdf/2407.16260), Yan et al., ECCV 2024
 - [Connecting Consistency Distillation to Score Distillation for Text-to-3D Generation](https://arxiv.org/pdf/2407.13584), Li et al., ECCV 2024
 - [DreamCouple: Exploring High Quality Text-to-3D Generation Via Rectified Flow](https://arxiv.org/abs/2408.05008), Li et al., Arxiv 2024
+- [ScaleDreamer: Scalable Text-to-3D Synthesis with Asynchronous Score Distillation](https://arxiv.org/pdf/2407.02040), Ma et al., ECCV 2024
 
 ### Compositional or Scene Generation
 - [Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models](https://arxiv.org/abs/2303.11989), Höllein et al., Arxiv 2023
@@ -141,6 +142,8 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Unique3D: High-Quality and Efficient 3D Mesh Generation from a Single Image](https://arxiv.org/pdf/2405.20343), Wu et al., Arxiv 2024
 
 ### Human and Animal
+- [ScoreHMR: Score-Guided Diffusion for 3D Human Recovery](https://github.com/statho/ScoreHMR), Stathopoulos et al., CVPR 2024
+- [Generative Proxemics: A Prior for 3D Social Interaction from Images](https://muelea.github.io/buddi/), Müller at al, CVPR 2024 
 - [DreamFace: Progressive Generation of Animatable 3D Faces under Text Guidance](https://arxiv.org/abs/2304.03117), Zhang et al., Arxiv 2023
 - [AvatarCraft: Transforming Text into Neural Human Avatars with Parameterized Shape and Pose Control](https://arxiv.org/abs/2303.17606), Jiang et al., ICCV 2023
 - [DreamAvatar: Text-and-Shape Guided 3D Human Avatar Generation via Diffusion Models](https://arxiv.org/abs/2304.00916), Cao et al., Arxiv 2023
@@ -186,6 +189,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [View-Consistent 3D Editing with Gaussian Splatting](https://arxiv.org/abs/2403.11868), Wang et al., Arxiv 2024
 - [Interactive3D: Create What You Want by Interactive 3D Generation](https://arxiv.org/abs/2404.16510), Dong et al., Arxiv 2024
 - [DGE: Direct Gaussian 3D Editing by Consistent Multi-view Editing](https://arxiv.org/abs/2404.18929), Chen et al., Arxiv 2024
+- [DATENeRF: Depth-Aware Text-based Editing of NeRFs](https://arxiv.org/pdf/2404.04526), Rojas et al., Arxiv 2024
 
 ### Texturing
 - [TEXTure: Text-Guided Texturing of 3D Shapes](https://arxiv.org/abs/2302.01721), Richardson et al., Arxiv 2023
@@ -261,6 +265,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Consistent View Synthesis with Pose-Guided Diffusion Models](https://arxiv.org/abs/2303.17598), Tseng et al., CVPR 2023
 - [Long-Term Photometric Consistent Novel View Synthesis with Diffusion Models](https://arxiv.org/abs/2304.10700), Yu et al., Arxiv 2023 
 - [DiffDreamer: Towards Consistent Unsupervised Single-view Scene Extrapolation with Conditional Diffusion Models](https://arxiv.org/abs/2211.12131), Cai et al., Arxiv 2023
+- [SemCity: Semantic Scene Generation with Triplane Diffusion](https://sglab.kaist.ac.kr/SemCity/), Lee et al., CVPR 2024
 
 ## Diffusion in 3D Space
 ### 3D Gaussians
@@ -277,7 +282,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [DiffFacto: Controllable Part-Based 3D Point Cloud Generation with Cross Diffusion](https://arxiv.org/pdf/2305.01921.pdf), Nakayama et al., Arxiv 2023
 - [Sketch and Text Guided Diffusion Model for Colored Point Cloud Generation](https://arxiv.org/abs/2308.02874), Wu et al., ICCV 2023
 - [DiT-3D: Exploring Plain Diffusion Transformers for 3D Shape Generation](https://arxiv.org/abs/2307.01831), Mo et al., Arxiv 2023
-- [MeshGPT: Generating Triangle Meshes with Decoder-Only Transformers](https://arxiv.org/abs/2311.15475), Siqqiqui et al., Arxiv 2023
+- [MeshGPT: Generating Triangle Meshes with Decoder-Only Transformers](https://arxiv.org/abs/2311.15475), Siddiqui et al., CVPR 2024
 - [ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model](http://arxiv.org/abs/2311.17618), Yin et al., Arxiv 2023
 - [VolumeDiffusion: Flexible Text-to-3D Generation with Efficient Volumetric Encoder](https://arxiv.org/abs/2312.11459), Tang et al., Arxiv 2023
 - [SPiC·E: Structural Priors in 3D Diffusion Models using Cross-Entity Attention](https://arxiv.org/abs/2311.17834), Sella et al., Arxiv 2023
