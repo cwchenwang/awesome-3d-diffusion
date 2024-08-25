@@ -8,7 +8,7 @@ This repo collects papers that use diffusion models for 3D generation.
 ## Table of Contents
 - [2D Diffusion with Pretraining](#2d-diffusion-with-pretraining)
   * [Text-to-3D Object Generation](#text-to-3d-object-generation)
-  * [Compositional or Scene Generation](#text-to-3d-scene-generation)
+  * [Compositional or Scene Generation](#compositional-or-scene-generation)
   * [Image-to-3D](#image-to-3d)
   * [Human and Animal](#human-and-animal)
   * [3D Editing](#3d-editing)
@@ -108,6 +108,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Invisible Stitch: Generating Smooth 3D Scenes with Depth Inpainting](https://arxiv.org/abs/2404.19758), Engstler et al., Arxiv 2024
 - [REPARO: Compositional 3D Assets Generation with Differentiable 3D Layout Alignment](https://arxiv.org/pdf/2405.18525), Han et al., Arxiv 2024
 - [VividDream: Generating 3D Scene with Ambient Dynamics](https://arxiv.org/pdf/2405.20334), Lee et al., Arxiv 2024
+- [ControlRoom3D: Room Generation using Semantic Proxy Rooms](https://arxiv.org/pdf/2312.05208), Schult et al., CVPR 2024
 
 ### Image-to-3D
 - [NeuralLift-360: Lifting An In-the-wild 2D Photo to A 3D Object with $360^{\deg}$ Views](https://arxiv.org/abs/2211.16431), Xu et al., CVPR 2023
