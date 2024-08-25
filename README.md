@@ -91,6 +91,9 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Connecting Consistency Distillation to Score Distillation for Text-to-3D Generation](https://arxiv.org/pdf/2407.13584), Li et al., ECCV 2024
 - [DreamCouple: Exploring High Quality Text-to-3D Generation Via Rectified Flow](https://arxiv.org/abs/2408.05008), Li et al., Arxiv 2024
 - [ScaleDreamer: Scalable Text-to-3D Synthesis with Asynchronous Score Distillation](https://arxiv.org/pdf/2407.02040), Ma et al., ECCV 2024
+- [Meta 3D AssetGen: Text-to-Mesh Generation with High-Quality Geometry, Texture, and PBR Materials](https://assetgen.github.io/static/AssetGen.pdf), Siddiqui et. al., Arxiv 2024
+- [Meta 3D Gen](https://arxiv.org/pdf/2407.02599), Bensadoun et. al, Arxiv 2024
+
 
 ### Compositional or Scene Generation
 - [Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models](https://arxiv.org/abs/2303.11989), Höllein et al., Arxiv 2023
@@ -240,6 +243,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [CraftsMan: High-fidelity Mesh Generation with 3D Native Generation and Interactive Geometry Refiner](https://arxiv.org/abs/2405.14979), Li et al., Arxiv 2024
 - [Ouroboros3D: Image-to-3D Generation via 3D-aware Recursive Diffusion](https://arxiv.org/pdf/2406.03184), Wen et al., Arxiv 2024
 - [Cycle3D: High-quality and Consistent Image-to-3D Generation via Generation-Reconstruction Cycle](https://arxiv.org/abs/2407.19548), Tang et al., Arxiv 2024
+- [GRM: Large Gaussian Reconstruction Model for Efficient 3D Reconstruction and Generation](https://arxiv.org/pdf/2403.14621), Xu et. al, Arxiv 2024
 
 ## 2D Diffusion without Pretraining
 ### 3D Objects
