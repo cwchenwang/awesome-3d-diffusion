@@ -334,6 +334,7 @@ This repo collects papers that use diffusion models for 3D generation.
 ## Diffusion for Motion
 
 ### Human Motion
+- [SMooDi: Stylized Motion Diffusion Model](https://arxiv.org/abs/2407.12783), Lei et al., ECCV 2024
 - [Single Motion Diffusion](https://sinmdm.github.io/SinMDM-page/), Raab et al., ICLR 2024
 - [OmniControl: Control Any Joint at Any Time for Human Motion Generation](https://arxiv.org/abs/2310.08580), Xie et al., ICLR 2024
 - [Human Motion Diffusion as a Generative Prior](https://priormdm.github.io/priorMDM-page/), Shafir et al., ICLR 2024
