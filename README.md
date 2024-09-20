@@ -22,6 +22,7 @@ This repo collects papers that use diffusion models for 3D generation.
   * [Implicit Representation](#implicit-representation)
   * [Triplane](#triplane)
   * [Latent Representation](#latent-representation)
+  * [Novel Representations](#novel-representations)
 - [Diffusion for Motion](#diffusion-for-motion)
   * [Human Motion](#human-motion)
 
@@ -67,6 +68,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [DreamPropeller: Supercharge Text-to-3D Generation with Parallel Sampling](https://arxiv.org/abs/2311.17082), Zhou et al., Arxiv 2023
 - [UniDream: Unifying Diffusion Priors for Relightable Text-to-3D Generation](https://arxiv.org/abs/2312.08754), Liu et al., Arxiv 2023
 - [Stable Score Distillation for High-Quality 3D Generation](https://arxiv.org/abs/2312.09305), Tang et al., Arxiv 2023
+- [DreamControl: Control-Based Text-to-3D Generation with 3D Self-Prior](https://arxiv.org/abs/2312.06439), Huang et al., CVPR 2024
 - [Text-Image Conditioned Diffusion for Consistent Text-to-3D Generation](https://arxiv.org/abs/2312.11774), He et al., Arxiv 2023
 - [HexaGen3D: StableDiffusion is just one step away from Fast and Diverse Text-to-3D Generation](https://arxiv.org/abs/2401.07727), Mercier et al., Arxiv 2024
 - [Repaint123: Fast and High-quality One Image to 3D Generation with Progressive Controllable 2D Repainting](https://arxiv.org/abs/2312.13271), Zhang et al., Arxiv 2023
@@ -89,8 +91,11 @@ This repo collects papers that use diffusion models for 3D generation.
 - [JointDreamer: Ensuring Geometry Consistency and Text Congruence in Text-to-3D Generation via Joint Score Distillation](https://arxiv.org/pdf/2407.12291), Jiang et al., ECCV 2024
 - [DreamDissector: Learning Disentangled Text-to-3D Generation from 2D Diffusion Priors](https://arxiv.org/pdf/2407.16260), Yan et al., ECCV 2024
 - [Connecting Consistency Distillation to Score Distillation for Text-to-3D Generation](https://arxiv.org/pdf/2407.13584), Li et al., ECCV 2024
+- [PlacidDreamer: Advancing Harmony in Text-to-3D Generation](https://arxiv.org/abs/2407.13976), Huang et al., Arxiv 2024
 - [DreamCouple: Exploring High Quality Text-to-3D Generation Via Rectified Flow](https://arxiv.org/abs/2408.05008), Li et al., Arxiv 2024
 - [ScaleDreamer: Scalable Text-to-3D Synthesis with Asynchronous Score Distillation](https://arxiv.org/pdf/2407.02040), Ma et al., ECCV 2024
+- [Vista3D: Unravel the 3D Darkside of a Single Image](https://arxiv.org/pdf/2409.12193), Shen et al., ECCV 2024
+- [SceneDreamer360: Text-Driven 3D-Consistent Scene Generation with Panoramic Gaussian Splatting](https://arxiv.org/abs/2408.13711), Li et al., Arxiv 2024
 
 ### Compositional or Scene Generation
 - [Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models](https://arxiv.org/abs/2303.11989), Höllein et al., Arxiv 2023
@@ -114,9 +119,12 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Invisible Stitch: Generating Smooth 3D Scenes with Depth Inpainting](https://arxiv.org/abs/2404.19758), Engstler et al., Arxiv 2024
 - [REPARO: Compositional 3D Assets Generation with Differentiable 3D Layout Alignment](https://arxiv.org/pdf/2405.18525), Han et al., Arxiv 2024
 - [VividDream: Generating 3D Scene with Ambient Dynamics](https://arxiv.org/pdf/2405.20334), Lee et al., Arxiv 2024
+- [VividDreamer: Towards High-Fidelity and Efficient Text-to-3D Generation](https://arxiv.org/abs/2406.14964), Chen et al., Arxiv 2024
 - [Director3D: Real-world Camera Trajectory and 3D Scene Generation from Text](https://arxiv.org/pdf/2406.17601), Li et al., Arxiv 2024
 - [Sketch2Scene: Automatic Generation of Interactive 3D Game Scenes from User's Casual Sketches](https://arxiv.org/abs/2408.04567), Xu et al., Arxiv 2024
 - [Scene123: One Prompt to 3D Scene Generation via Video-Assisted and Consistency-Enhanced MAE](https://arxiv.org/pdf/2408.05477), Yang et al., Arxiv 2024
+- [HoloDreamer: Holistic 3D Panoramic World Generation from Text Descriptions](https://arxiv.org/pdf/2407.15187), Zhou et al., Arxiv 2024
+- [COMOGen: A Controllable Text-to-3D Multi-object Generation Framework](https://arxiv.org/abs/2409.00590), Sun et al., Arxiv 2024
 
 ### Image-to-3D
 - [NeuralLift-360: Lifting An In-the-wild 2D Photo to A 3D Object with $360^{\deg}$ Views](https://arxiv.org/abs/2211.16431), Xu et al., CVPR 2023
@@ -213,6 +221,7 @@ This repo collects papers that use diffusion models for 3D generation.
 - [Direct2.5: Diverse Text-to-3D Generation via Multi-view 2.5D Diffusion](http://arxiv.org/abs/2311.15980), Lu et al., Arxiv 2023
 - [ViVid-1-to-3: Novel View Synthesis with Video Diffusion Models](http://arxiv.org/abs/2312.01305), Kwak et al., Arxiv 2023
 - [EpiDiff: Enhancing Multi-View Synthesis via Localized Epipolar-Constrained Diffusion](https://arxiv.org/abs/2312.06725), Huang et al., CVPR 2024
+- [BoostDream: Efficient Refining for High-Quality Text-to-3D Generation from Multi-View Diffusion](https://arxiv.org/abs/2401.16764), Yu et al., Arxiv 2024
 - [EscherNet: A Generative Model for Scalable View Synthesis](https://arxiv.org/abs/2402.03908), Kong et al., Arxiv 2024
 - [LGM: Large Multi-View Gaussian Model for High-Resolution 3D Content Creation](https://arxiv.org/abs/2402.05054), Tang et al., Arxiv 2024
 - [SPAD : Spatially Aware Multiview Diffusers](https://arxiv.org/abs/2402.05235), Kant et al., Arxiv 2024
@@ -271,6 +280,7 @@ This repo collects papers that use diffusion models for 3D generation.
 ### 3D Gaussians
 - [GVGEN: Text-to-3D Generation with Volumetric Representation](https://arxiv.org/abs/2403.12957), He et al., Arxiv 2024
 - [GaussianCube: Structuring Gaussian Splatting using Optimal Transport for 3D Generative Modeling](http://arxiv.org/abs/2403.19655), Zhang et al., Arxiv 2024
+- [Atlas Gaussians Diffusion for 3D Generation with Infinite Number of Points](https://arxiv.org/abs/2408.13055), Yang et al., Arxiv 2024
 
 ### Point Cloud, Meshs, Volumes
 
@@ -330,6 +340,7 @@ This repo collects papers that use diffusion models for 3D generation.
 
 ## Novel Representations
 - [X-Ray: A Sequential 3D Representation for Generation](https://arxiv.org/pdf/2404.14329), Hu et al., Arxiv 2024
+- [Geometry Image Diffusion: Fast and Data-Efficient Text-to-3D with Image-Based Surface Representation](https://arxiv.org/pdf/2409.03718), Elizarov et al., Arxiv 2024
 
 ## Diffusion for Motion
 
