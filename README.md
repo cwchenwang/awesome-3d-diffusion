@@ -3,6 +3,18 @@ This repo collects papers that use diffusion models for 3D generation.
 
 🔥🔥🔥 Check out our collection of papers on 4D generation: https://github.com/cwchenwang/awesome-4d-generation
 
+🔥🔥🔥 Please take a look at our survey on diffusion models for 3D Generation, which gives a summary of the papers of this list: https://github.com/cwchenwang/awesome-3d-diffuson/survey.pdf
+
+If you consider our paper or list useful, please cite our paper:
+```
+@article{wang2024diffusion,
+  title={Diffusion Models for 3D Generation: A Survey},
+  author={Wang, Chen and Peng, Hao-Yang and Liu, Ying-Tian and Gu, Jiatao and Hu, Shi-Min},
+  journal={arXiv},
+  year={2024}
+}
+```
+
 **Note**: This list is far from complete, please directly open a pull request if you want to add a paper or modify the information. You don't need to open an issue.
 
 ## Table of Contents
@@ -341,6 +353,7 @@ This repo collects papers that use diffusion models for 3D generation.
 ## Novel Representations
 - [X-Ray: A Sequential 3D Representation for Generation](https://arxiv.org/pdf/2404.14329), Hu et al., Arxiv 2024
 - [Geometry Image Diffusion: Fast and Data-Efficient Text-to-3D with Image-Based Surface Representation](https://arxiv.org/pdf/2409.03718), Elizarov et al., Arxiv 2024
+- [3DTopia-XL: Scaling High-quality 3D Asset Generation via Primitive Diffusion](https://arxiv.org/abs/2409.12957), Chen et al., Arxiv 2024
 
 ## Diffusion for Motion
 
