@@ -3,7 +3,7 @@ This repo collects papers that use diffusion models for 3D generation.
 
 🔥🔥🔥 Check out our collection of papers on 4D generation: https://github.com/cwchenwang/awesome-4d-generation
 
-🔥🔥🔥 Please take a look at our survey on diffusion models for 3D Generation, which gives a summary of the papers of this list: https://github.com/cwchenwang/awesome-3d-diffuson/survey.pdf
+🔥🔥🔥 Please take a look at our survey on diffusion models for 3D Generation, which gives a summary of the papers of this list: https://github.com/cwchenwang/awesome-3d-diffusion/blob/main/survey.pdf
 
 If you consider our paper or list useful, please cite our paper:
 ```
