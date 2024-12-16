@@ -10,7 +10,7 @@ If you consider our paper or list useful, please cite our paper:
 @article{wang2024diffusion,
   title={Diffusion Models for 3D Generation: A Survey},
   author={Wang, Chen and Peng, Hao-Yang and Liu, Ying-Tian and Gu, Jiatao and Hu, Shi-Min},
-  journal={arXiv},
+  howpublished = {\url{https://github.com/cwchenwang/awesome-3d-diffusion}},
   year={2024}
 }
 ```
@@ -348,12 +348,15 @@ If you consider our paper or list useful, please cite our paper:
 - [StyleAvatar3D: Leveraging Image-Text Diffusion Models for High-Fidelity 3D Avatar Generation](https://arxiv.org/pdf/2305.19012), Zhang et al., Arxiv 2023
 - [AutoDecoding Latent 3D Diffusion Models](https://arxiv.org/pdf/2307.05445), Ntavelis et al., Arxiv 2023
 - [XCube: Large-Scale 3D Generative Modeling using Sparse Voxel Hierarchies](https://arxiv.org/abs/2312.03806), Ren et al., CVPR 2024 
-- [LN3Diff: Scalable Latent Neural Fields Diffusion for Speedy 3D Generation](https://arxiv.org/abs/2403.12019), Lan et al., Arxiv 2024
+- [LN3Diff: Scalable Latent Neural Fields Diffusion for Speedy 3D Generation](https://arxiv.org/abs/2403.12019), Lan et al., ECCV 2024
+- [GaussianAnything: Interactive Point Cloud Latent Diffusion for 3D Generation](https://arxiv.org/abs/2411.08033), Lan et al., Arxiv 2024
+- [Structured 3D Latents for Scalable and Versatile 3D Generation](https://trellis3d.github.io/), Xiang et al., Arxiv 2024
 
 ## Novel Representations
 - [X-Ray: A Sequential 3D Representation for Generation](https://arxiv.org/pdf/2404.14329), Hu et al., Arxiv 2024
 - [Geometry Image Diffusion: Fast and Data-Efficient Text-to-3D with Image-Based Surface Representation](https://arxiv.org/pdf/2409.03718), Elizarov et al., Arxiv 2024
 - [3DTopia-XL: Scaling High-quality 3D Asset Generation via Primitive Diffusion](https://arxiv.org/abs/2409.12957), Chen et al., Arxiv 2024
+- [An Object is Worth 64x64 Pixels: Generating 3D Object via Image Diffusion](https://arxiv.org/pdf/2408.03178), Yan et al., Arxiv 2024
 
 ## Diffusion for Motion
 
