@@ -287,6 +287,8 @@ If you consider our paper or list useful, please cite our paper:
 - [Long-Term Photometric Consistent Novel View Synthesis with Diffusion Models](https://arxiv.org/abs/2304.10700), Yu et al., Arxiv 2023 
 - [DiffDreamer: Towards Consistent Unsupervised Single-view Scene Extrapolation with Conditional Diffusion Models](https://arxiv.org/abs/2211.12131), Cai et al., Arxiv 2023
 - [SemCity: Semantic Scene Generation with Triplane Diffusion](https://sglab.kaist.ac.kr/SemCity/), Lee et al., CVPR 2024
+- [L3DG: Latent 3D Gaussian Diffusion](https://arxiv.org/abs/2410.13530), Rössle et. al., SIGGRAPH Asia 2024
+- [LT3SD: Latent Trees for 3D Scene Diffusion](https://arxiv.org/abs/2409.08215), Meng et al., Arxiv 2023
 
 ## Diffusion in 3D Space
 ### 3D Gaussians
