@@ -219,7 +219,10 @@ If you consider our paper or list useful, please cite our paper:
 - [TextureDreamer: Image-guided Texture Synthesis through Geometry-aware Diffusion](https://arxiv.org/abs/2401.09416), Yeh et al., Arxiv 2024
 - [MaPa: Text-driven Photorealistic Material Painting for 3D Shapes](https://arxiv.org/abs/2404.17569), Zheng et al., Arxiv 2024
 - [DreamMat: High-quality PBR Material Generation with Geometry- and Light-aware Diffusion Models](https://arxiv.org/abs/2405.17176), Zhang et al., Arxiv 2024
+- [MatFuse: Controllable Material Generation with Diffusion Models](https://arxiv.org/abs/2308.11408) Vecchio et al., CVPR 2024
+- [StableMaterials: Enhancing Diversity in Material Generation via Semi-Supervised Learning](https://arxiv.org/abs/2406.09293) Vecchio et al., Arxiv 2024
 - [TexGen: Text-Guided 3D Texture Generation with Multi-view Sampling and Resampling](https://arxiv.org/abs/2408.01291), Huo et al., Arxiv 2024
+- [ControlMat: A Controlled Generative Approach to Material Capture](https://arxiv.org/abs/2309.01700) Vecchio et al., ACM ToG 2024
 
 ### Multi-view Diffusion
 - [MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion](https://arxiv.org/abs/2307.01097), Tang et al., Arxiv 2023
