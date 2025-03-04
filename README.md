@@ -210,6 +210,7 @@ If you consider our paper or list useful, please cite our paper:
 - [Interactive3D: Create What You Want by Interactive 3D Generation](https://arxiv.org/abs/2404.16510), Dong et al., Arxiv 2024
 - [DGE: Direct Gaussian 3D Editing by Consistent Multi-view Editing](https://arxiv.org/abs/2404.18929), Chen et al., Arxiv 2024
 - [DATENeRF: Depth-Aware Text-based Editing of NeRFs](https://arxiv.org/pdf/2404.04526), Rojas et al., Arxiv 2024
+- [3D StreetUnveiler with Semantic-aware 2DGS - a simple baseline](https://arxiv.org/abs/2405.18416), Xu et al., ICLR 2025
 
 ### Texturing
 - [TEXTure: Text-Guided Texturing of 3D Shapes](https://arxiv.org/abs/2302.01721), Richardson et al., Arxiv 2023
