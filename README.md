@@ -137,6 +137,7 @@ If you consider our paper or list useful, please cite our paper:
 - [Scene123: One Prompt to 3D Scene Generation via Video-Assisted and Consistency-Enhanced MAE](https://arxiv.org/pdf/2408.05477), Yang et al., Arxiv 2024
 - [HoloDreamer: Holistic 3D Panoramic World Generation from Text Descriptions](https://arxiv.org/pdf/2407.15187), Zhou et al., Arxiv 2024
 - [COMOGen: A Controllable Text-to-3D Multi-object Generation Framework](https://arxiv.org/abs/2409.00590), Sun et al., Arxiv 2024
+- [DynamicCity: Large-Scale 4D Occupancy Generation from Dynamic Scenes](https://arxiv.org/abs/2410.18084), Bian et al., ICLR 2025 Spotlight
 
 ### Image-to-3D
 - [NeuralLift-360: Lifting An In-the-wild 2D Photo to A 3D Object with $360^{\deg}$ Views](https://arxiv.org/abs/2211.16431), Xu et al., CVPR 2023
