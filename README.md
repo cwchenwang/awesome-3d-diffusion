@@ -297,6 +297,7 @@ If you consider our paper or list useful, please cite our paper:
 - [GVGEN: Text-to-3D Generation with Volumetric Representation](https://arxiv.org/abs/2403.12957), He et al., Arxiv 2024
 - [GaussianCube: Structuring Gaussian Splatting using Optimal Transport for 3D Generative Modeling](http://arxiv.org/abs/2403.19655), Zhang et al., Arxiv 2024
 - [Atlas Gaussians Diffusion for 3D Generation with Infinite Number of Points](https://arxiv.org/abs/2408.13055), Yang et al., Arxiv 2024
+- [DiffusionGS: Baking Gaussian Splatting into Diffusion Denoiser for Fast and Scalable Single-stage Image-to-3D Generation and Reconstruction](https://arxiv.org/abs/2411.14384), Cai et al., ICCV 2025
 
 ### Point Cloud, Meshs, Volumes
 
