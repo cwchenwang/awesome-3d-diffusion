@@ -20,7 +20,7 @@ If you consider our paper or list useful, please cite our paper:
 ## Table of Contents
 - [2D Diffusion with Pretraining](#2d-diffusion-with-pretraining)
   * [Text-to-3D Object Generation](#text-to-3d-object-generation)
-  * [Compositional or Scene Generation](#text-to-3d-scene-generation)
+  * [Compositional or Scene Generation](#compositional-or-scene-generation)
   * [Image-to-3D](#image-to-3d)
   * [Human and Animal](#human-and-animal)
   * [3D Editing](#3d-editing)
@@ -30,7 +30,8 @@ If you consider our paper or list useful, please cite our paper:
   * [3D Objects](#3d-objects)
   * [3D Scenes](#3d-scenes)
 - [Diffusion in 3D Space](#diffusion-in-3d-space)
-  * [Explicit Representation](#explicit-representation)
+  * [3D Gaussians](#3d-gaussians)
+  * [Point Cloud, Meshs, Volumes](#point-cloud-meshs-volumes)
   * [Implicit Representation](#implicit-representation)
   * [Triplane](#triplane)
   * [Latent Representation](#latent-representation)
@@ -49,7 +50,6 @@ If you consider our paper or list useful, please cite our paper:
 - [Let 2D Diffusion Model Know 3D-Consistency for Robust Text-to-3D Generation](https://arxiv.org/abs/2303.07937), Seo et al., Arxiv 2023
 - [DITTO-NeRF: Diffusion-based Iterative Text To Omni-directional 3D Model](https://arxiv.org/abs/2304.02827), Seo et al., Arxiv 2023
 - [TextMesh: Generation of Realistic 3D Meshes From Text Prompts](https://arxiv.org/abs/2304.12439), Tsalicoglou et al., Arxiv 2023
-- [Let 2D Diffusion Model Know 3D-Consistency for Robust Text-to-3D Generation](https://arxiv.org/abs/2303.07937), Seo et al., Arxiv 2023
 - [Text-driven Visual Synthesis with Latent Diffusion Prior](https://arxiv.org/abs/2302.08510), Liao et al., Arxiv 2023
 - [Re-imagine the Negative Prompt Algorithm: Transform 2D Diffusion into 3D, alleviate Janus problem and Beyond](https://arxiv.org/abs/2304.04968), Armandpour et al., Arxiv 2023
 - [HiFA: High-fidelity Text-to-3D with Advanced Diffusion Guidance](https://arxiv.org/abs/2305.18766), Zhu and Zhuang, Arxiv 2023
@@ -58,7 +58,7 @@ If you consider our paper or list useful, please cite our paper:
 - [ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation](https://arxiv.org/abs/2305.16213), Wang et al., NeurIPS 2023.
 - [DreamTime: An Improved Optimization Strategy for Text-to-3D Content Creation](http://arxiv.org/abs/2306.12422), Huang et al., Arxiv 2023
 - [EfficientDreamer: High-Fidelity and Robust 3D Creation via Orthogonal-view Diffusion Prior](https://arxiv.org/abs/2308.13223), Zhao et al., Arxiv 2023
-- [SweetDreamer: Aligning Geometric Priors in 2D Diffusion for Consistent Text-to-3D](https://arxiv.org/abs/2309.03453), Li et al., Arxiv 2023
+- [SweetDreamer: Aligning Geometric Priors in 2D Diffusion for Consistent Text-to-3D](https://arxiv.org/abs/2310.02596), Li et al., Arxiv 2023
 - [DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior](http://arxiv.org/abs/2310.16818), Sun et al., Arxiv 2023
 - [Text-to-3D with Classifier Score Distillation](http://arxiv.org/abs/2310.19415), Yu et al., Arxiv 2023
 - [Instant3D: Instant Text-to-3D Generation](http://arxiv.org/abs/2311.08403), Li et al., Arxiv 2023
@@ -88,13 +88,13 @@ If you consider our paper or list useful, please cite our paper:
 - [BrightDreamer: Generic 3D Gaussian Generative Framework for Fast Text-to-3D Synthesis](https://arxiv.org/abs/2403.11273), Jiang and Wang, Arxiv 2024
 - [DreamReward: Text-to-3D Generation with Human Preference](https://arxiv.org/abs/2403.14613), Ye et al., Arxiv 2024
 - [DreamFlow: High-Quality Text-to-3D Generation by Approximating Probability Flow](https://arxiv.org/abs/2403.14966), Lee et al., ICLR 2024
-- [LATTE3D: Large-scale Amortized Text-To-Enhanced3D Synthesis](http://arxiv.org/abs/2403.15385), Xie et al., Arix 2024
+- [LATTE3D: Large-scale Amortized Text-To-Enhanced3D Synthesis](http://arxiv.org/abs/2403.15385), Xie et al., Arxiv 2024
 - [DreamPolisher: Towards High-Quality Text-to-3D Generation via Geometric Diffusion](https://arxiv.org/abs/2403.17237), Lin et al., Arxiv 2024
 - [VP3D: Unleashing 2D Visual Prompt for Text-to-3D Generation](https://arxiv.org/abs/2403.17001), Chen et al., CVPR 2024
 - [Hash3D: Training-free Acceleration for 3D Generation](https://arxiv.org/abs/2404.06091), Yang and Wang, Arxiv 2024
 - [MicroDreamer: Zero-shot 3D Generation in ∼20 Seconds by Score-based Iterative Reconstruction](https://arxiv.org/abs/2404.19525), Chen et al., Arxiv 2024
 - [SketchDream: Sketch-based Text-to-3D Generation and Editing](https://arxiv.org/pdf/2405.06461), Liu et al., Arxiv 2024
-- [Flow Score Distillation for Diverse Text-to-3D](https://arxiv.org/pdf/2405.10988), Yan et al., Arxiv 2024
+- [Flow Score Distillation for Diverse Text-to-3D Generation](https://arxiv.org/pdf/2405.10988), Yan et al., Arxiv 2024
 - [Dreamer XL: Towards High-Resolution Text-to-3D Generation via Trajectory Score Matching](https://arxiv.org/abs/2405.11252), Miao et al., Arxiv 2024
 - [Atlas3D: Physically Constrained Self-Supporting Text-to-3D for Simulation and Fabrication](https://arxiv.org/abs/2405.18515), Chen et al., Arxiv 2024
 - [DIRECT-3D: Learning Direct Text-to-3D Generation on Massive Noisy 3D Data](https://arxiv.org/pdf/2406.04322), Liu et al., Arxiv 2024
@@ -103,7 +103,6 @@ If you consider our paper or list useful, please cite our paper:
 - [JointDreamer: Ensuring Geometry Consistency and Text Congruence in Text-to-3D Generation via Joint Score Distillation](https://arxiv.org/pdf/2407.12291), Jiang et al., ECCV 2024
 - [DreamDissector: Learning Disentangled Text-to-3D Generation from 2D Diffusion Priors](https://arxiv.org/pdf/2407.16260), Yan et al., ECCV 2024
 - [Connecting Consistency Distillation to Score Distillation for Text-to-3D Generation](https://arxiv.org/pdf/2407.13584), Li et al., ECCV 2024
-- [PlacidDreamer: Advancing Harmony in Text-to-3D Generation](https://arxiv.org/abs/2407.13976), Huang et al., Arxiv 2024
 - [DreamCouple: Exploring High Quality Text-to-3D Generation Via Rectified Flow](https://arxiv.org/abs/2408.05008), Li et al., Arxiv 2024
 - [ScaleDreamer: Scalable Text-to-3D Synthesis with Asynchronous Score Distillation](https://arxiv.org/pdf/2407.02040), Ma et al., ECCV 2024
 - [Vista3D: Unravel the 3D Darkside of a Single Image](https://arxiv.org/pdf/2409.12193), Shen et al., ECCV 2024
@@ -120,14 +119,14 @@ If you consider our paper or list useful, please cite our paper:
 - [SceneWiz3D: Towards Text-guided 3D Scene Composition](https://arxiv.org/abs/2312.08885), Zhang et al., Arxiv 2023
 - [ShowRoom3D: Text to High-Quality 3D Room Generation Using 3D Priors](https://arxiv.org/abs/2312.13324), Mao et al., Arxiv 2023
 - [Text2Street: Controllable Text-to-image Generation for Street Views](https://arxiv.org/abs/2402.04504), Su et al., Arxiv 2024
-- [GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting](http://arxiv.org/abs/2402.07207), Zhou et al., Arxiv 2023
+- [GALA3D: Towards Text-to-3D Complex Scene Generation via Layout-guided Generative Gaussian Splatting](http://arxiv.org/abs/2402.07207), Zhou et al., Arxiv 2024
 - [Sketch2NeRF: Multi-view Sketch-guided Text-to-3D Generation](https://arxiv.org/abs/2401.14257), Chen et al., Arxiv 2024
 - [A Quantitative Evaluation of Score Distillation Sampling Based Text-to-3D](https://arxiv.org/abs/2402.18780), Fei et al., Arxiv 2024
 - [DreamScene: 3D Gaussian-based Text-to-3D Scene Generation via Formation Pattern Sampling](https://arxiv.org/abs/2404.03575), Li et al., Arxiv 2024
 - [DreamScene360: Unconstrained Text-to-3D Scene Generation with Panoramic Gaussian Splatting](https://arxiv.org/abs/2404.06903), Zhou et al., Arxiv 2024
 - [RealmDreamer: Text-Driven 3D Scene Generation with Inpainting and Depth Diffusion](https://arxiv.org/abs/2404.07199), Shriram et al., Arxiv 2024
 - [Urban Architect: Steerable 3D Urban Scene Generation with Layout Prior](https://arxiv.org/abs/2404.06780), Lu et al., Arxiv 2024
-- [DreamScape: 3D Scene Creation via Gaussian Splatting joint Correlation Modeling](https://arxiv.org/abs/2404.09227), Yang et al., Arxiv 2024
+- [DreamScape: 3D Scene Creation via Gaussian Splatting joint Correlation Modeling](https://arxiv.org/abs/2404.09227), Yuan et al., Arxiv 2024
 - [Invisible Stitch: Generating Smooth 3D Scenes with Depth Inpainting](https://arxiv.org/abs/2404.19758), Engstler et al., Arxiv 2024
 - [REPARO: Compositional 3D Assets Generation with Differentiable 3D Layout Alignment](https://arxiv.org/pdf/2405.18525), Han et al., Arxiv 2024
 - [VividDream: Generating 3D Scene with Ambient Dynamics](https://arxiv.org/pdf/2405.20334), Lee et al., Arxiv 2024
@@ -158,7 +157,7 @@ If you consider our paper or list useful, please cite our paper:
 - [Repaint123: Fast and High-quality One Image to 3D Generation with Progressive Controllable 2D Repainting](https://arxiv.org/abs/2312.13271), Zhang et al., Arxiv 2023
 - [AGG: Amortized Generative 3D Gaussians for Single Image to 3D](https://arxiv.org/abs/2401.04099), Xu et al., Arxiv 2024
 - [Part123: Part-aware 3D Reconstruction from a Single-view Image](https://arxiv.org/abs/2405.16888), Liu et al., SIGGRAPH Conference 2024
-- [GECO: Generation Image-to-3D within a Second](https://arxiv.org/abs/2405.20327), Wang et al., Arxiv 2024
+- [GECO: Generative Image-to-3D within a SECOnd](https://arxiv.org/abs/2405.20327), Wang et al., Arxiv 2024
 - [Fourier123: One Image to High-Quality 3D Object Generation with Hybrid Fourier Score Distillation](https://arxiv.org/pdf/2405.20669), Yang et al., Arxiv 2024
 - [Unique3D: High-Quality and Efficient 3D Mesh Generation from a Single Image](https://arxiv.org/pdf/2405.20343), Wu et al., Arxiv 2024
 
@@ -192,7 +191,7 @@ If you consider our paper or list useful, please cite our paper:
 - [Edit-DiffNeRF: Editing 3D Neural Radiance Fields using 2D Diffusion Model](https://arxiv.org/abs/2306.09551), Yu et al., Arxiv 2023
 - [Control4D: Dynamic Portrait Editing by Learning 4D GAN from 2D Diffusion-based Editor](https://arxiv.org/abs/2305.20082), Shao et al., Arxiv 2023
 - [RePaint-NeRF: NeRF Editting via Semantic Masks and Diffusion Models](https://arxiv.org/abs/2306.05668), Zhou et al., Arxiv 2023
-- [DreamEditor: Text-Driven 3D Scene Editing with Neural Fields](https://arxiv.org/abs/2306.13455), Zhuang et al., SIGRRAPH ASIA 2023
+- [DreamEditor: Text-Driven 3D Scene Editing with Neural Fields](https://arxiv.org/abs/2306.13455), Zhuang et al., SIGGRAPH ASIA 2023
 - [Language-driven Object Fusion into Neural Radiance Fields with Pose-Conditioned Dataset Updates](https://arxiv.org/abs/2309.11281), Shum et al., Arxiv 2023
 - [ProteusNeRF: Fast Lightweight NeRF Editing using 3D-Aware Image Context](https://arxiv.org/abs/2310.09965), Wang et al., Arxiv 2023
 - [ED-NeRF: Efficient Text-Guided Editing of 3D Scene using Latent Space NeRF](https://arxiv.org/abs/2310.02712), Park et al., Arxiv 2023
@@ -203,8 +202,8 @@ If you consider our paper or list useful, please cite our paper:
 - [SHAP-EDITOR: Instruction-guided Latent 3D Editing in Seconds](https://arxiv.org/abs/2312.09246), Chen et al., Arxiv 2023
 - [LatentEditor: Text Driven Local Editing of 3D Scenes](https://arxiv.org/abs/2312.09313), Khalid et al., Arxiv 2023
 - [Free-Editor: Zero-shot Text-driven 3D Scene Editing](https://arxiv.org/abs/2312.13663), Karim et al., Arxiv 2023
-- [SIGNeRF: Scene Integrated Generation for Neural Radiance Fields](https://arxiv.org/abs/2401.01647), Dihlmann et al., Arxiv 2023
-- [Efficient-NeRF2NeRF: Streamlining Text-Driven 3D Editing with Multiview Correspondence-Enhanced Diffusion Models](https://arxiv.org/abs/2312.08563), Song et al., Arxiv 2024
+- [SIGNeRF: Scene Integrated Generation for Neural Radiance Fields](https://arxiv.org/abs/2401.01647), Dihlmann et al., Arxiv 2024
+- [Efficient-NeRF2NeRF: Streamlining Text-Driven 3D Editing with Multiview Correspondence-Enhanced Diffusion Models](https://arxiv.org/abs/2312.08563), Song et al., Arxiv 2023
 - [ReplaceAnything3D: Text-Guided 3D Scene Editing with Compositional Neural Radiance Fields](https://arxiv.org/abs/2401.17895), Bartrum et al., Arxiv 2024
 - [GaussCtrl: Multi-View Consistent Text-Driven 3D Gaussian Splatting Editing](http://arxiv.org/abs/2403.08733), Wu et al., Arxiv 2024
 - [View-Consistent 3D Editing with Gaussian Splatting](https://arxiv.org/abs/2403.11868), Wang et al., Arxiv 2024
@@ -218,7 +217,7 @@ If you consider our paper or list useful, please cite our paper:
 - [EucliDreamer: Fast and High-Quality Texturing for 3D Models with Stable Diffusion Depth](https://arxiv.org/abs/2311.15573), Le et al., Arxiv 2023
 - [Paint3D: Paint Anything 3D with Lighting-Less Texture Diffusion Models](http://arxiv.org/abs/2312.13913), Zeng et al., Arxiv 2023
 - [TextureDreamer: Image-guided Texture Synthesis through Geometry-aware Diffusion](https://arxiv.org/abs/2401.09416), Yeh et al., Arxiv 2024
-- [MaPa: Text-driven Photorealistic Material Painting for 3D Shapes](https://arxiv.org/abs/2404.17569), Zheng et al., Arxiv 2024
+- [MaPa: Text-driven Photorealistic Material Painting for 3D Shapes](https://arxiv.org/abs/2404.17569), Zhang et al., Arxiv 2024
 - [DreamMat: High-quality PBR Material Generation with Geometry- and Light-aware Diffusion Models](https://arxiv.org/abs/2405.17176), Zhang et al., Arxiv 2024
 - [MatFuse: Controllable Material Generation with Diffusion Models](https://arxiv.org/abs/2308.11408) Vecchio et al., CVPR 2024
 - [StableMaterials: Enhancing Diversity in Material Generation via Semi-Supervised Learning](https://arxiv.org/abs/2406.09293) Vecchio et al., Arxiv 2024
@@ -251,14 +250,13 @@ If you consider our paper or list useful, please cite our paper:
 - [Controllable Text-to-3D Generation via Surface-Aligned Gaussian Splatting](https://arxiv.org/abs/2403.09981), Li et al., Arxiv 2024
 - [FDGaussian: Fast Gaussian Splatting from Single Image via Geometric-aware Diffusion Model](https://arxiv.org/abs/2403.10242), Feng et al., Arxiv 2024
 - [Isotropic3D: Image-to-3D Generation Based on a Single CLIP Embedding](https://arxiv.org/abs/2403.10395), Liu et al., Arxiv 2024
-- [SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion](https://arxiv.org/abs/2403.12008), Vikram et al., Arxiv 2024
+- [SV3D: Novel Multi-view Synthesis and 3D Generation from a Single Image using Latent Video Diffusion](https://arxiv.org/abs/2403.12008), Voleti et al., Arxiv 2024
 - [Generic 3D Diffusion Adapter Using Controlled Multi-View Editing](https://arxiv.org/abs/2403.12032), Chen et al., Arxiv 2024
 - [VFusion3D: Learning Scalable 3D Generative Models from Video Diffusion Models](https://arxiv.org/abs/2403.12034), Han et al., Arxiv 2024
-- [Garment3DGen: 3D Garment Stylization and Texture Generation](http://arxiv.org/abs/2403.19655), Zhang et al., Arxiv 2024
+- [Garment3DGen: 3D Garment Stylization and Texture Generation](http://arxiv.org/abs/2403.18816), Sarafianos et al., Arxiv 2024
 - [MVD-Fusion: Single-view 3D via Depth-consistent Multi-view Generation](https://arxiv.org/abs/2404.03656), Hu et al., CVPR 2024
 - [Magic-Boost: Boost 3D Generation with Mutli-View Conditioned Diffusion](https://arxiv.org/abs/2404.06429), Yang et al., Arxiv 2024
 - [InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models](http://arxiv.org/abs/2404.07191), Xu et al., Arxiv 2024
-- [Magic-Boost: Boost 3D Generation with Mutli-View Conditioned Diffusion](https://arxiv.org/abs/2404.06429), Yang et al., Arxiv 2024
 - [Grounded Compositional and Diverse Text-to-3D with Pretrained Multi-View Diffusion Model](https://arxiv.org/pdf/2404.18065), Li et al., Arxiv 2024
 - [Multi-view Image Prompted Multi-view Diffusion for Improved 3D Generation](https://arxiv.org/abs/2404.17419), Kim et al., Arxiv 2024
 - [MVDiff: Scalable and Flexible Multi-View Diffusion for 3D Object Reconstruction from Single-View](https://arxiv.org/pdf/2405.03894), Bourigault et al., Arxiv 2024
@@ -273,12 +271,12 @@ If you consider our paper or list useful, please cite our paper:
 - [Generative Novel View Synthesis with 3D-Aware Diffusion Models](https://arxiv.org/abs/2304.02602), Chan et al., Arxiv 2023
 - [NerfDiff: Single-image View Synthesis with NeRF-guided Distillation from 3D-aware Diffusion](https://arxiv.org/abs/2302.10109), Gu et al., ICML 2023
 - [3DDesigner: Towards Photorealistic 3D Object Generation and Editing with Text-guided Diffusion Models](https://arxiv.org/abs/2211.14108), Li et al., Arxiv 2022
-- [SparseFusSparseFusion: Distilling View-conditioned Diffusion for 3D Reconstruction](https://arxiv.org/abs/2212.00792), Zhou and Tulsiani, CVPR 2023
+- [SparseFusion: Distilling View-conditioned Diffusion for 3D Reconstruction](https://arxiv.org/abs/2212.00792), Zhou and Tulsiani, CVPR 2023
 - [HoloDiffusion: Training a 3D Diffusion Model using 2D Images](https://arxiv.org/abs/2303.16509), Karnewar et al., CVPR 2023
 - [Renderdiffusion: Image Diffusion for 3D Reconstruction, Inpainting and Generation](https://arxiv.org/abs/2211.09869), Anciukevičius et al., CVPR 2023
 - [Diffusion with Forward Models: Solving Stochastic Inverse Problems Without Direct Supervision](https://arxiv.org/abs/2306.11719), Tewari et al., Arxiv 2023
 - [3D-aware Image Generation using 2D Diffusion Models](https://arxiv.org/abs/2303.17905), Xiang et al., Arxiv 2023
-- [Viewset Viewset Diffusion: (0-)Image-Conditioned 3D Generative Models from 2D Data](https://arxiv.org/abs/2306.07881), Szymanowicz et al., Arxiv 2023
+- [Viewset Diffusion: (0-)Image-Conditioned 3D Generative Models from 2D Data](https://arxiv.org/abs/2306.07881), Szymanowicz et al., Arxiv 2023
 - [HOLOFUSION: Towards Photo-realistic 3D Generative Modeling](https://arxiv.org/pdf/2308.14244.pdf), Karnewar et al., Arxiv 2023
 - [ZeroNVS: Zero-Shot 360-Degree View Synthesis from a Single Real Image](http://arxiv.org/abs/2310.17994), Sargent et al., Arxiv 2023
 - [Instant3D: Fast Text-to-3D with Sparse-view Generation and Large Reconstruction Model](https://arxiv.org/abs/2311.06214), Li et al., Arxiv 2023
@@ -290,7 +288,7 @@ If you consider our paper or list useful, please cite our paper:
 ### 3D Scenes
 - [Consistent View Synthesis with Pose-Guided Diffusion Models](https://arxiv.org/abs/2303.17598), Tseng et al., CVPR 2023
 - [Long-Term Photometric Consistent Novel View Synthesis with Diffusion Models](https://arxiv.org/abs/2304.10700), Yu et al., Arxiv 2023 
-- [DiffDreamer: Towards Consistent Unsupervised Single-view Scene Extrapolation with Conditional Diffusion Models](https://arxiv.org/abs/2211.12131), Cai et al., Arxiv 2023
+- [DiffDreamer: Towards Consistent Unsupervised Single-view Scene Extrapolation with Conditional Diffusion Models](https://arxiv.org/abs/2211.12131), Cai et al., Arxiv 2022
 - [SemCity: Semantic Scene Generation with Triplane Diffusion](https://sglab.kaist.ac.kr/SemCity/), Lee et al., CVPR 2024
 
 ## Diffusion in 3D Space
@@ -320,7 +318,7 @@ If you consider our paper or list useful, please cite our paper:
 ### Implicit Representation
 
 - [Learning A Diffusion Prior For Nerfs](https://arxiv.org/pdf/2304.14473.pdf), Yang et al., ICLRW 2023
-- [Tetrahedral Diffusion Models for 3D Shape Generation](https://arxiv.org/pdf/2211.13220.pdf), Nikolai and Torben et al., Arxiv 2022
+- [Tetrahedral Diffusion Models for 3D Shape Generation](https://arxiv.org/pdf/2211.13220.pdf), Kalischek et al., Arxiv 2022
 - [MeshDiffusion: Score-based Generative 3D Mesh Modeling](https://arxiv.org/pdf/2303.08133), Liu et al., ICLR 2023
 - [Neural Wavelet-domain Diffusion for 3D Shape Generation](https://arxiv.org/pdf/2209.08725), Hui et al., SIGGRAPH Asia 2022 
 - [Neural Wavelet-domain Diffusion for 3D Shape Generation, Inversion, and Manipulation](https://arxiv.org/pdf/2302.00190), Hu and Hui et al., Arxiv 2023
@@ -367,13 +365,13 @@ If you consider our paper or list useful, please cite our paper:
 ## Diffusion for Motion
 
 ### Human Motion
-- [SMooDi: Stylized Motion Diffusion Model](https://arxiv.org/abs/2407.12783), Lei et al., ECCV 2024
+- [SMooDi: Stylized Motion Diffusion Model](https://arxiv.org/abs/2407.12783), Zhong et al., ECCV 2024
 - [Single Motion Diffusion](https://sinmdm.github.io/SinMDM-page/), Raab et al., ICLR 2024
 - [OmniControl: Control Any Joint at Any Time for Human Motion Generation](https://arxiv.org/abs/2310.08580), Xie et al., ICLR 2024
 - [Human Motion Diffusion as a Generative Prior](https://priormdm.github.io/priorMDM-page/), Shafir et al., ICLR 2024
 - [MotionMix: Weakly-Supervised Diffusion for Controllable Motion Generation](https://arxiv.org/abs/2401.11115), Hoang et al., AAAI 2024
 - [DNO: Optimizing Diffusion Noise Can Serve As Universal Motion Priors](https://korrawe.github.io/dno-project/), Karunratanakul et al., Arxiv 2023
-- [RoHM: Robust Human Motion Reconstruction via Diffusion](https://arxiv.org/pdf/2401.08570.pdf), Zhang et al., Arxiv 2023
+- [RoHM: Robust Human Motion Reconstruction via Diffusion](https://arxiv.org/pdf/2401.08570.pdf), Zhang et al., Arxiv 2024
 - [EMDM: Efficient Motion Diffusion Model for Fast, High-Quality Human Motion Generation](https://frank-zy-dou.github.io/projects/EMDM/index.html), Zhou et al., Arxiv 2023
 - [DiffusionPhase: Motion Diffusion in Frequency Domain](https://arxiv.org/abs/2312.04036), Wan et al., Arxiv 2023
 - [InterControl: Generate Human Motion Interactions by Controlling Every Joint](https://arxiv.org/abs/2311.15864), Wang et al., Arxiv 2023
@@ -397,6 +395,6 @@ If you consider our paper or list useful, please cite our paper:
 - [GestureDiffuCLIP: Gesture Diffusion Model with CLIP Latents](https://aubrey-ao.github.io/publication/gesturediffuclip/) Ao et al., SIG 2023, TOG 2023
 - [Taming Diffusion Models for Audio-Driven Co-Speech Gesture Generation](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Taming_Diffusion_Models_for_Audio-Driven_Co-Speech_Gesture_Generation_CVPR_2023_paper.pdf), Zhu et al., CVPR 2023
 - [MoFusion: A Framework for Denoising-Diffusion-based Motion Synthesis](https://openaccess.thecvf.com/content/CVPR2023/papers/Dabral_Mofusion_A_Framework_for_Denoising-Diffusion-Based_Motion_Synthesis_CVPR_2023_paper.pdf), Dabral et al., CVPR 2023
-- [Executing your Commands via Motion Diffusion in Latent Space](https://arxiv.org/abs/2212.04048), Jiang et al., CVPR 2023
+- [Executing your Commands via Motion Diffusion in Latent Space](https://arxiv.org/abs/2212.04048), Chen et al., CVPR 2023
 - [MDM: Human Motion Diffusion Model](https://guytevet.github.io/mdm-page/), Tevet et al., ICLR 2023
 - [MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model](https://mingyuan-zhang.github.io/projects/MotionDiffuse.html), Zhang et al., Arxiv 2022
